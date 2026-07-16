@@ -1,10 +1,9 @@
 ---
-import whale from "#/assets/images/spline-holders/diving-whale.png"
-import trust from "#/assets/images/spline-holders/trust.png"
-import { Image } from "astro:assets"
-import smallWhale from "../../assets/images/whale.png"
-import { renderRichText, renderTitle } from "../../lib/contentful/render.ts"
-import H1 from "../typography/h1.astro"
+import whale from "#/assets/images/spline-holders/diving-whale.png";
+import trust from "#/assets/images/spline-holders/trust.png";
+import { Image } from "astro:assets";
+import smallWhale from "../../assets/images/whale.png";
+import H1 from "../typography/h1.astro";
 
 const diver = [
   { id: "union", text: "What is Union?", meter: "200m" },
@@ -16,23 +15,24 @@ const diver = [
   { id: "galois", text: "Galois", meter: "1400m" },
   { id: "bls", text: "CometBLS", meter: "1600m" },
   { id: "voyager", text: "Voyager", meter: "1800m" },
-]
+];
 
-const { entries } = Astro.props
+interface Props {
+  entries: Record<string, string | boolean | null>;
+}
+
+const { entries } = Astro.props;
 ---
 
-<div
-  class="flex justify-center py-24 text-lg font-mono"
-  id="swim-container"
->
+<div class="flex justify-center py-24 text-lg font-mono" id="swim-container">
   <div class="relative grid grid-cols-2 gap-4 max-w-6xl px-6">
     <div class="flex flex-col col-span-full lg:col-span-1 gap-16 lg:gap-24">
       <div id="union">
         <H1>
-          <Fragment set:html={renderTitle(entries.firstTitle)} />
+          <Fragment set:html={entries.firstTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.firstText)} />
+          <Fragment set:html={entries.firstTextHtml as string} />
         </div>
       </div>
 
@@ -54,10 +54,10 @@ const { entries } = Astro.props
 
       <div id="interoperability">
         <H1>
-          <Fragment set:html={renderTitle(entries.secondTitle)} />
+          <Fragment set:html={entries.secondTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.secondText)} />
+          <Fragment set:html={entries.secondTextHtml as string} />
         </div>
       </div>
 
@@ -79,19 +79,19 @@ const { entries } = Astro.props
 
       <div id="modularity">
         <H1>
-          <Fragment set:html={renderTitle(entries.thirdTitle)} />
+          <Fragment set:html={entries.thirdTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.thirdText)} />
+          <Fragment set:html={entries.thirdTextHtml as string} />
         </div>
       </div>
 
       <div id="cases">
         <H1>
-          <Fragment set:html={renderTitle(entries.fourthTitle)} />
+          <Fragment set:html={entries.fourthTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.fourthText)} />
+          <Fragment set:html={entries.fourthTextHtml as string} />
         </div>
       </div>
 
@@ -113,66 +113,58 @@ const { entries } = Astro.props
 
       <div id="works">
         <H1>
-          <Fragment set:html={renderTitle(entries.fifthTitle)} />
+          <Fragment set:html={entries.fifthTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.fifthText)} />
+          <Fragment set:html={entries.fifthTextHtml as string} />
         </div>
       </div>
 
       <div id="verification">
         <H1>
-          <Fragment set:html={renderTitle(entries.sixthTitle)} />
+          <Fragment set:html={entries.sixthTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.sixthText)} />
+          <Fragment set:html={entries.sixthTextHtml as string} />
         </div>
       </div>
 
       <div class="w-full max-w-sm">
         <div class="relative w-full">
-          <Image
-            src={trust}
-            alt="Trust"
-            class="w-full h-full object-cover"
-          />
+          <Image src={trust} alt="Trust" class="w-full h-full object-cover" />
         </div>
       </div>
 
       <div id="galois">
         <H1>
-          <Fragment set:html={renderTitle(entries.seventhTitle)} />
+          <Fragment set:html={entries.seventhTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.seventhText)} />
+          <Fragment set:html={entries.seventhTextHtml as string} />
         </div>
       </div>
 
       <div id="bls">
         <H1>
-          <Fragment set:html={renderTitle(entries.eighthTitle)} />
+          <Fragment set:html={entries.eighthTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.eighthText)} />
+          <Fragment set:html={entries.eighthTextHtml as string} />
         </div>
       </div>
 
       <div id="voyager">
         <H1>
-          <Fragment set:html={renderTitle(entries.ninthTitle)} />
+          <Fragment set:html={entries.ninthTitleHtml as string} />
         </H1>
         <div class="flex flex-col md:max-w-[576px] w-full gap-8 mt-4">
-          <Fragment set:html={renderRichText(entries.ninthText)} />
+          <Fragment set:html={entries.ninthTextHtml as string} />
         </div>
       </div>
 
       <div class="w-full max-w-md">
         <div class="relative w-full">
-          <Image
-            src={whale}
-            alt="Whale"
-            class="w-full h-full object-cover"
-          />
+          <Image src={whale} alt="Whale" class="w-full h-full object-cover" />
         </div>
       </div>
     </div>
@@ -211,70 +203,70 @@ const { entries } = Astro.props
   </div>
 
   <script>
-  function initScrollHandler() {
-    const dot = document.getElementById("scrolling-dot")
-    const swimlane = document.getElementById("swim-lane")
+    function initScrollHandler() {
+      const dot = document.getElementById("scrolling-dot");
+      const swimlane = document.getElementById("swim-lane");
 
-    if (!dot || !swimlane) {
-      return
-    }
-
-    const updateDotPosition = () => {
-      const documentHeight = document.documentElement.scrollHeight
-      const viewportHeight = window.innerHeight
-      const maxScroll = documentHeight - viewportHeight
-      const scrollPercentage = window.scrollY / maxScroll
-
-      const maxDotPosition = swimlane.offsetHeight - dot.offsetHeight
-      const newPosition = scrollPercentage * maxDotPosition
-
-      dot.style.transform = `translateY(${Math.max(0, Math.min(maxDotPosition, newPosition))}px)`
-    }
-
-    // Throttled scroll handler using requestAnimationFrame
-    let isScrolling = false
-    const scrollHandler = () => {
-      if (!isScrolling) {
-        requestAnimationFrame(() => {
-          updateDotPosition()
-          isScrolling = false
-        })
-        isScrolling = true
+      if (!dot || !swimlane) {
+        return;
       }
+
+      const updateDotPosition = () => {
+        const documentHeight = document.documentElement.scrollHeight;
+        const viewportHeight = window.innerHeight;
+        const maxScroll = documentHeight - viewportHeight;
+        const scrollPercentage = window.scrollY / maxScroll;
+
+        const maxDotPosition = swimlane.offsetHeight - dot.offsetHeight;
+        const newPosition = scrollPercentage * maxDotPosition;
+
+        dot.style.transform = `translateY(${Math.max(0, Math.min(maxDotPosition, newPosition))}px)`;
+      };
+
+      // Throttled scroll handler using requestAnimationFrame
+      let isScrolling = false;
+      const scrollHandler = () => {
+        if (!isScrolling) {
+          requestAnimationFrame(() => {
+            updateDotPosition();
+            isScrolling = false;
+          });
+          isScrolling = true;
+        }
+      };
+
+      window.addEventListener("scroll", scrollHandler, { passive: true });
+      setTimeout(updateDotPosition, 0); // Initial position
+
+      return () => window.removeEventListener("scroll", scrollHandler);
     }
 
-    window.addEventListener("scroll", scrollHandler, { passive: true })
-    setTimeout(updateDotPosition, 0) // Initial position
+    // Initialize scroll handler
+    const setup = () => {
+      const cleanup = initScrollHandler();
+      document.addEventListener("astro:before-preparation", cleanup, {
+        once: true,
+      });
+    };
 
-    return () => window.removeEventListener("scroll", scrollHandler)
-  }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", setup);
+    } else {
+      setup();
+    }
 
-  // Initialize scroll handler
-  const setup = () => {
-    const cleanup = initScrollHandler()
-    document.addEventListener("astro:before-preparation", cleanup, {
-      once: true,
-    })
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setup)
-  } else {
-    setup()
-  }
-
-  document.addEventListener("astro:page-load", setup)
+    document.addEventListener("astro:page-load", setup);
   </script>
 
   <style>
-  .dive-gradient {
-    background: linear-gradient(
-      180deg,
-      #ffffff 4%,
-      #a0ecfd 7.13%,
-      #030711 56%,
-      #000000 100%
-    );
-  }
+    .dive-gradient {
+      background: linear-gradient(
+        180deg,
+        #ffffff 4%,
+        #a0ecfd 7.13%,
+        #030711 56%,
+        #000000 100%
+      );
+    }
   </style>
 </div>

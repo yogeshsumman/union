@@ -1,12 +1,14 @@
-import rss from "@astrojs/rss"
-import type { APIContext } from "astro"
-import { getCollection } from "astro:content"
+import rss from "@astrojs/rss";
+import type { APIContext } from "astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+type BlogEntry = CollectionEntry<"blog">;
 
 export async function GET(context: APIContext) {
-  const blog = await getCollection("blog")
-  const site = context.site
+  const blog = await getCollection("blog");
+  const site = context.site;
   if (!site) {
-    throw new Error("Missing site metadata")
+    throw new Error("Missing site metadata");
   }
 
   return rss({
@@ -15,8 +17,12 @@ export async function GET(context: APIContext) {
     description:
       "Union is a hyper-efficient, zero-knowledge interoperability layer that connects Appchains, Layer 1, and Layer 2 networks.",
     items: blog
-      .filter(post => !post.data.hidden)
-      .map(post => ({
+      .filter((post: BlogEntry) => post.data.published && !post.data.hidden)
+      .sort(
+        (left: BlogEntry, right: BlogEntry) =>
+          right.data.date.getTime() - left.data.date.getTime(),
+      )
+      .map((post: BlogEntry) => ({
         title: post.data.title,
         pubDate: post.data.date,
         link: `/blog/${post.slug}/`,
@@ -24,5 +30,5 @@ export async function GET(context: APIContext) {
       })),
     // (optional) inject custom xml
     customData: `<language>en-us</language>`,
-  })
+  });
 }
