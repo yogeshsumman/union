@@ -1,16 +1,7 @@
----
-title: "Union and Agoric Partner to Expand Cross-chain Orchestration to EVM"
-date: "2024-11-07"
-author: "Stephen Gee"
-description: "As core contributors to the multi-chain movement, Union and Agoric will unlock a scalable future where thousands of chains can permissionlessly connect, communicate, and thrive."
-cover: "/content/assets/23jAFxu1TxtMYplkQYM2aY/Union-X-Agoric-Blog.png"
-coverAlt: "Graphic with the Union logo on one side, and the Agoric logo on the other side."
-hidden: false
-published: true
-sourceId: "5YFHPKJ3en5WNx1UPMo0pk"
-createdAt: "2024-11-05T06:24:38.277Z"
-updatedAt: "2024-11-11T22:11:35.719Z"
----
+______________________________________________________________________
+
+## title: "Union and Agoric Partner to Expand Cross-chain Orchestration to EVM" date: "2024-11-07" author: "Stephen Gee" description: "As core contributors to the multi-chain movement, Union and Agoric will unlock a scalable future where thousands of chains can permissionlessly connect, communicate, and thrive." cover: "/content/assets/23jAFxu1TxtMYplkQYM2aY/Union-X-Agoric-Blog.png" coverAlt: "Graphic with the Union logo on one side, and the Agoric logo on the other side." hidden: false published: true sourceId: "5YFHPKJ3en5WNx1UPMo0pk" createdAt: "2024-11-05T06:24:38.277Z" updatedAt: "2024-11-11T22:11:35.719Z"
+
 <p>Union and <a href="https://agoric.com/">Agoric</a> are partnering to expand seamless cross-chain workflows throughout the Union network. Together, Union and Agoric will unlock a future where developers can create rich applications that interact smoothly across thousands of blockchains, while users enjoy simple and effortless on-chain experiences that feel like they’re happening on a single chain.</p>
 <p>This integration will enable Agoric’s flagship <a href="https://agoric.com/orchestration/">Orchestration</a> platform to connect to blockchains throughout the Union network, including EVM chains such as Ethereum, <a href="https://union.build/blog/arbitrum-partnership">Arbitrum</a>, and <a href="https://x.com/union_build/status/1793658292117377374">Berachain</a>. That means developers and users on Union-connected chains will have access to powerful new tools and experiences, alongside Union’s permissionless, secure, and hyper-efficient ZK-powered interoperability.</p>
 <h2>The Future Is Multi-chain</h2>

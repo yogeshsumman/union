@@ -1,9 +1,9 @@
-default.locale = "en-us"
 default.extend-ignore-re = [
   # Machine-generated Contentful references and paths are not natural language.
   '"(?:sourceId|id|linkedSectionId|linkedSubsectionId|path|filename)":\s*"[^"]*"',
   '^sourceId:\s*"[^"]*"$',
 ]
+default.locale = "en-us"
 
 files.extend-exclude = [
   "deployments/deployments.json",
@@ -92,8 +92,8 @@ files.extend-exclude = [
 "CEST"                    = "CEST"
 "CFLAGS"                  = "CFLAGS"
 "CHAINSTACK"              = "CHAINSTACK"
-"CMOV"                    = "CMOV"
 "CMO"                     = "CMO"
+"CMOV"                    = "CMOV"
 "Cascadia"                = "Cascadia"
 "Celestia"                = "Celestia"
 "Celestine"               = "Celestine"
@@ -101,9 +101,9 @@ files.extend-exclude = [
 "Chainer"                 = "Chainer"
 "Cleper"                  = "Cleper"
 "Codehash"                = "Codehash"
-"Coffer"                  = "Coffer"
 "Coeff"                   = "Coeff"
 "Cofactor"                = "Cofactor"
+"Coffer"                  = "Coffer"
 "Configurator"            = "Configurator"
 "Connor"                  = "Connor"
 "Consolas"                = "Consolas"
@@ -198,10 +198,10 @@ files.extend-exclude = [
 "Monaspace"               = "Monaspace"
 "Movementlabs"            = "Movementlabs"
 "Multichain"              = "Multichain"
-"Nativerse"               = "Nativerse"
 "NIXBUILDNET"             = "NIXBUILDNET"
 "NJPFFHKJX"               = "NJPFFHKJX"
 "NSCYRR"                  = "NSCYRR"
+"Nativerse"               = "Nativerse"
 "Neue"                    = "Neue"
 "Ngtt"                    = "Ngtt"
 "Nmimt"                   = "Nmimt"

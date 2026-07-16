@@ -1,16 +1,7 @@
----
-title: "Union Adding Support for Base"
-date: "2025-08-27"
-author: "Stephen Gee"
-description: "Union is integrating Base, to connect more people to the global onchain economy being built on Base."
-cover: "/content/assets/4cqFy7l0l9Vvc1q0vblK6v/Union-x-Base.png"
-coverAlt: "Blog cover with the words Union and Base (with logos), a big X in between, and the words \"blockchain of blockchains\" in the bottom left. In the background is a whale shark's fin."
-hidden: false
-published: true
-sourceId: "4TAwBsNtqb37iLabwtUYAR"
-createdAt: "2025-08-21T19:00:49.731Z"
-updatedAt: "2025-08-27T17:28:01.620Z"
----
+______________________________________________________________________
+
+## title: "Union Adding Support for Base" date: "2025-08-27" author: "Stephen Gee" description: "Union is integrating Base, to connect more people to the global onchain economy being built on Base." cover: "/content/assets/4cqFy7l0l9Vvc1q0vblK6v/Union-x-Base.png" coverAlt: "Blog cover with the words Union and Base (with logos), a big X in between, and the words "blockchain of blockchains" in the bottom left. In the background is a whale shark's fin." hidden: false published: true sourceId: "4TAwBsNtqb37iLabwtUYAR" createdAt: "2025-08-21T19:00:49.731Z" updatedAt: "2025-08-27T17:28:01.620Z"
+
 <p>Union is adding support for <a href="https://www.base.org/">Base</a>. This integration creates a trustless, secure connection between Base and the growing Union network, enabling frictionless liquidity and crosschain communication. Union’s zk technology and consensus verification will give Base direct access to IBC, MoveVM, and other AltVMs supported by Union.<br><br>Union is the leading zk interoperability L1, enabling settlement and liquidity for protocols and asset issuers. Union leverages advanced zero-knowledge cryptography to deliver fast, trustless interoperability across any execution environment. With its strong security, Union has become the preferred interoperability provider for the BTCfi ecosystem.</p>
 <p>With this integration, Union will create a trustless, zk-powered connection to Base. Base has one of the most vibrant onchain ecosystems, with a strong developer community, high user growth, and alignment with Ethereum. By connecting Base to the Union network, more people will be able to take part in the global onchain economy that Base is building.</p>
 <p>Union’s Base connection brings multiple advantages:</p>

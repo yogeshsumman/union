@@ -1,16 +1,7 @@
----
-title: "Fur and Friendship: Berachain and Stride Go Live on Union Testnet"
-date: "2024-07-31"
-author: "Stephen Gee"
-description: "With the integration of Berachain and Stride into the Union Testnet App, new activities are revealed. Let the quest for Fur and Friendship commence."
-cover: "/content/assets/2LX5e6vlkomTAgrNthsWtC/Honeyjar-Quest-Image.png"
-coverAlt: "Image of a bear holding a glowing cube with Union branding, with logos for The Honey Jar, Union, and Berachain, and the words Fur and Friendship and Quest Live Now."
-hidden: false
-published: true
-sourceId: "30WBwgkef1DsqnL1e1vDN8"
-createdAt: "2024-07-25T01:28:29.198Z"
-updatedAt: "2024-11-08T15:42:10.946Z"
----
+______________________________________________________________________
+
+## title: "Fur and Friendship: Berachain and Stride Go Live on Union Testnet" date: "2024-07-31" author: "Stephen Gee" description: "With the integration of Berachain and Stride into the Union Testnet App, new activities are revealed. Let the quest for Fur and Friendship commence." cover: "/content/assets/2LX5e6vlkomTAgrNthsWtC/Honeyjar-Quest-Image.png" coverAlt: "Image of a bear holding a glowing cube with Union branding, with logos for The Honey Jar, Union, and Berachain, and the words Fur and Friendship and Quest Live Now." hidden: false published: true sourceId: "30WBwgkef1DsqnL1e1vDN8" createdAt: "2024-07-25T01:28:29.198Z" updatedAt: "2024-11-08T15:42:10.946Z"
+
 <p>Since Union’s <a href="https://x.com/union_build/status/1793658292117377374">partnership with Berachain</a> was announced, both communities have been asking one question: wen bArtio?</p>
 <p>The wait is officially over. Berachain has been added to the Union Testnet. Go to <a href="https://app.union.build/">app.union.build</a> and begin transferring to and from Berachain’s high-performance, EVM-compatible blockchain.</p>
 <p>But that’s not all. In order to demonstrate the DeFi possibilities Union will unlock, Cosmos LST provider <a href="https://www.stride.zone/">Stride</a> has been integrated as well. With Union, Berachain, and Stride, users will be able to liquid stake blue-chip assets like TIA, ATOM, and DYXY, transfer them to Berachain, and use them in DeFi.</p>

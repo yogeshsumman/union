@@ -1,16 +1,7 @@
----
-title: "Aligned Layer Partnership"
-date: "2024-04-26"
-author: "0xkaiserkarel"
-description: "Union is set to enhance its zero-knowledge interoperability through a strategic collaboration with Aligned Layer."
-cover: "/content/assets/3qo06v4er2jmkMsqDy1ey/Aligned-Layer-Partner-Blog.png"
-coverAlt: "Union X Aligned Layer"
-hidden: false
-published: true
-sourceId: "4OXJtHta4UzHobce5woaak"
-createdAt: "2024-07-18T11:24:26.953Z"
-updatedAt: "2024-11-08T15:41:13.668Z"
----
+______________________________________________________________________
+
+## title: "Aligned Layer Partnership" date: "2024-04-26" author: "0xkaiserkarel" description: "Union is set to enhance its zero-knowledge interoperability through a strategic collaboration with Aligned Layer." cover: "/content/assets/3qo06v4er2jmkMsqDy1ey/Aligned-Layer-Partner-Blog.png" coverAlt: "Union X Aligned Layer" hidden: false published: true sourceId: "4OXJtHta4UzHobce5woaak" createdAt: "2024-07-18T11:24:26.953Z" updatedAt: "2024-11-08T15:41:13.668Z"
+
 <p>Union is set to enhance its zero-knowledge interoperability through a strategic collaboration with Aligned Layer. This partnership will leverage Aligned’s universal verification layer to settle proofs on Ethereum through EigenLayer’s AVS to generate faster and cheaper bridge transactions.</p>
 <h2>The Power of BLS Signatures</h2>
 <p>At the core of Union’s technology is the utilization of Boneh-Lynn-Shacham (BLS) signatures in its CometBLS platform. BLS signatures are renowned for their efficiency, particularly when verifying transactions in both regular IBC and zero-knowledge proof (ZKP) based IBC. These signatures provide a cheaper verification process, which is a substantial differentiator of Union’s tech stack.</p>

@@ -1,16 +1,7 @@
----
-title: "Redefining Utility: Chain-Abstracted Liquid Staking for the Union Token"
-date: "2025-07-22"
-author: "Ohad Bachner"
-description: "Chain-abstracted architecture, developed and deployed by Escher and Union, will empower the Union token and its liquid staked counterpart from day one."
-cover: "/content/assets/3e3udfqzKNrCOnxUmcFdTd/REDEFINING-UTILITY.png"
-coverAlt: "Graphic with the words \"Redefining Utility.\" and \"Chain-abstracted Liquid Staking for the Union Token\" with the Union and Escher logos + stairs leading into water."
-hidden: false
-published: true
-sourceId: "7EKxolBwQo7OcivjMZQJxc"
-createdAt: "2025-07-22T04:54:39.323Z"
-updatedAt: "2025-07-22T18:37:39.893Z"
----
+______________________________________________________________________
+
+## title: "Redefining Utility: Chain-Abstracted Liquid Staking for the Union Token" date: "2025-07-22" author: "Ohad Bachner" description: "Chain-abstracted architecture, developed and deployed by Escher and Union, will empower the Union token and its liquid staked counterpart from day one." cover: "/content/assets/3e3udfqzKNrCOnxUmcFdTd/REDEFINING-UTILITY.png" coverAlt: "Graphic with the words "Redefining Utility." and "Chain-abstracted Liquid Staking for the Union Token" with the Union and Escher logos + stairs leading into water." hidden: false published: true sourceId: "7EKxolBwQo7OcivjMZQJxc" createdAt: "2025-07-22T04:54:39.323Z" updatedAt: "2025-07-22T18:37:39.893Z"
+
 <p>Interoperability is about connecting ecosystems, so that users and protocols can interact freely regardless of what blockchain they start on. For a crosschain protocol like Union, it’s important that its native token be truly interoperable as well. Traditional models that confine a token and its derivatives on a single chain cannot live up to this vision.</p>
 <p>That’s why Union is collaborating with <a href="https://www.escher.finance/">Escher</a>, the liquid staking hub of the Union ecosystem, to overhaul how liquid staking works in a crosschain environment. When the Union token debuts, it will launch with a sophisticated, chain-abstracted architecture to liquid stake the token in a single click—allowing the Union token and its liquid-staked counterpart to be utilized across the entirety of the connected crypto ecosystem seamlessly and efficiently.</p>
 <h2>The Challenge of Crosschain Liquid Staking</h2>

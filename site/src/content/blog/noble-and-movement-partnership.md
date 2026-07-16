@@ -1,16 +1,7 @@
----
-title: "Movement and Noble Partnership"
-date: "2024-01-11"
-author: "Union"
-description: "Movement and Noble join forces with Union to transfer native assets across Celestia's modular stack."
-cover: "/content/assets/3OKHn7pFb1a5TSs3O7aAh8/Noble-Movement-Partner-Blog.png"
-coverAlt: "Partnership graphic of Movement and Noble with Union"
-hidden: false
-published: true
-sourceId: "7zsw3NAZoeLRS1O1nqh9jX"
-createdAt: "2024-07-24T04:18:19.533Z"
-updatedAt: "2024-07-25T15:44:08.546Z"
----
+______________________________________________________________________
+
+## title: "Movement and Noble Partnership" date: "2024-01-11" author: "Union" description: "Movement and Noble join forces with Union to transfer native assets across Celestia's modular stack." cover: "/content/assets/3OKHn7pFb1a5TSs3O7aAh8/Noble-Movement-Partner-Blog.png" coverAlt: "Partnership graphic of Movement and Noble with Union" hidden: false published: true sourceId: "7zsw3NAZoeLRS1O1nqh9jX" createdAt: "2024-07-24T04:18:19.533Z" updatedAt: "2024-07-25T15:44:08.546Z"
+
 <p>In the last few years, the emergence of optimistic rollups, zk-rollups, and side chains has increased fragmentation of protocol’s total value locked (TVL) and inherent liquidity. This problem highlights the need for increased interoperability between layer-2 ecosystems.</p>
 <p>While sovereign rollups are critical for innovation and scalability, their viability hinges on bridges that uphold the same ethos of decentralization and sovereignty. Recognizing this, Movement Labs and Noble have decided to join forces with Union as their interoperability partner.</p>
 <p>Union, the sovereign interoperability protocol, will provide <a href="https://medium.com/movementlabsxyz/movement-celestia-an-open-protocol-to-build-modular-move-l2s-on-ethereum-b20ee7ca6edf">M2</a> access to liquidity and connectivity to any IBC enabled chain, including Noble and Ethereum. With this integration, applications built on Movement will be able to securely transfer assets and messages to, from, and between other connected chains. This collaboration will enable Move VM rollups to communicate and exchange assets, such as Native USDC, directly with each other without relying on centralized or vulnerable bridge partners.</p>

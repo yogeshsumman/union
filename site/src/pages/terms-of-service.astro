@@ -1,16 +1,19 @@
 ---
-import ContainedSection from "../components/ContainedSection.astro";
-import AnimationLayout from "../layouts/AnimationLayout.astro";
-import { getEntry, render } from "astro:content";
+import { getEntry, render } from "astro:content"
+import ContainedSection from "../components/ContainedSection.astro"
+import AnimationLayout from "../layouts/AnimationLayout.astro"
 
-const termsOfService = await getEntry("legal", "terms-of-service");
+const termsOfService = await getEntry("legal", "terms-of-service")
 if (!termsOfService) {
-  throw new Error("Missing local terms of service content");
+  throw new Error("Missing local terms of service content")
 }
-const { Content } = await render(termsOfService);
+const { Content } = await render(termsOfService)
 ---
 
-<AnimationLayout title={termsOfService.data.title} text="">
+<AnimationLayout
+  title={termsOfService.data.title}
+  text=""
+>
   <ContainedSection className="">
     <Content />
   </ContainedSection>

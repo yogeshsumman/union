@@ -1,18 +1,18 @@
-import sitemap from "@astrojs/sitemap";
-import svelte from "@astrojs/svelte";
-import tailwind from "@astrojs/tailwind";
-import icon from "astro-icon";
-import { defineConfig, passthroughImageService } from "astro/config";
-import { loadEnv } from "vite";
-import { markdownConfiguration } from "./markdown.config.ts";
+import sitemap from "@astrojs/sitemap"
+import svelte from "@astrojs/svelte"
+import tailwind from "@astrojs/tailwind"
+import icon from "astro-icon"
+import { defineConfig, passthroughImageService } from "astro/config"
+import { loadEnv } from "vite"
+import { markdownConfiguration } from "./markdown.config.ts"
 
-const SITE_URL = "https://union.build";
+const SITE_URL = "https://union.build"
 
 const { PORT = 4321, ENABLE_DEV_TOOLBAR = "false" } = loadEnv(
   process.env.NODE_ENV,
   process.cwd(),
   "",
-);
+)
 
 export default defineConfig({
   site: SITE_URL,
@@ -53,4 +53,4 @@ export default defineConfig({
     svelte(),
     sitemap(),
   ],
-});
+})

@@ -1,16 +1,7 @@
----
-title: "Union and Xion Integrate to Bring Chain Abstraction to the Union Network "
-date: "2024-10-16"
-author: "Stephen Gee"
-description: "Hyper-efficient interoperability meets chain abstracted user experience, to pave the way for wide-spread consumer adoption."
-cover: "/content/assets/yNxchMR9v24I5YcFa9NBU/Union-X-Xion-Blog.png"
-coverAlt: "Union and XION integration cover, featuring both protocol's logos."
-hidden: false
-published: true
-sourceId: "7sGCQoWBJJ9rIYGApXM4Gl"
-createdAt: "2024-10-16T01:21:52.295Z"
-updatedAt: "2024-10-16T13:31:40.673Z"
----
+______________________________________________________________________
+
+## title: "Union and Xion Integrate to Bring Chain Abstraction to the Union Network " date: "2024-10-16" author: "Stephen Gee" description: "Hyper-efficient interoperability meets chain abstracted user experience, to pave the way for wide-spread consumer adoption." cover: "/content/assets/yNxchMR9v24I5YcFa9NBU/Union-X-Xion-Blog.png" coverAlt: "Union and XION integration cover, featuring both protocol's logos." hidden: false published: true sourceId: "7sGCQoWBJJ9rIYGApXM4Gl" createdAt: "2024-10-16T01:21:52.295Z" updatedAt: "2024-10-16T13:31:40.673Z"
+
 <p>We’re excited to announce <a href="https://xion.burnt.com">XION’s</a> integration with Union, which will bring XION’s user-friendly functionality to the Union network’s growing list of connected chains, reducing friction in the web3 user experience and paving the way for wide-spread consumer adoption.</p>
 <p>With this integration, Union establishes its commitment to Chain Abstraction as a key pathway for onboarding users to Web3. XION’s walletless L1—which enshrines chain abstraction at the protocol level through native Account Abstraction, Signature Abstraction, Pricing Abstraction, and more—is a leader in the UX-first design. By integrating the XION, users on all Union-connected chains will gain access to powerful new capabilities alongside Union’s fast, low-cost, and secure ZK-powered transaction and message passing functionality.</p>
 <h2>Bringing Chain Abstraction to Web3</h2>

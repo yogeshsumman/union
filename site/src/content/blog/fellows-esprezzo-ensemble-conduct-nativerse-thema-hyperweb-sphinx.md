@@ -1,16 +1,7 @@
----
-title: "Welcome Union Fellows: Esprezzo, Ensemble, Conduct, Nativerse, Thema, Hyperweb, and Sphinx"
-date: "2025-06-05"
-author: "Stephen Gee"
-description: "U Combinator was a success, leading to 7 projects and dozens of fellows building on and with Union."
-cover: "/content/assets/5AhYNbXlO98rwRbBlWeYNV/FELLOWS-ANNOUNCE.png"
-coverAlt: "Graphic announcing Esprezzo, Ensemble, Conduct, Nativerse, Thema, Hyperweb, and Sphinx as Union Fellows."
-hidden: false
-published: true
-sourceId: "44BIblhFLU1BtaWXug11Qt"
-createdAt: "2025-06-05T16:25:31.664Z"
-updatedAt: "2025-06-27T21:41:17.271Z"
----
+______________________________________________________________________
+
+## title: "Welcome Union Fellows: Esprezzo, Ensemble, Conduct, Nativerse, Thema, Hyperweb, and Sphinx" date: "2025-06-05" author: "Stephen Gee" description: "U Combinator was a success, leading to 7 projects and dozens of fellows building on and with Union." cover: "/content/assets/5AhYNbXlO98rwRbBlWeYNV/FELLOWS-ANNOUNCE.png" coverAlt: "Graphic announcing Esprezzo, Ensemble, Conduct, Nativerse, Thema, Hyperweb, and Sphinx as Union Fellows." hidden: false published: true sourceId: "44BIblhFLU1BtaWXug11Qt" createdAt: "2025-06-05T16:25:31.664Z" updatedAt: "2025-06-27T21:41:17.271Z"
+
 <p>The first class of <a href="https://union.build/blog/u-combinator-incubator-cracked-labs">U Combinator</a> was a rousing success. 50 teams took part in the 9-week incubator of workshops, prototyping, MVP feedback, and pitch practice. The prize: a spot as a Union Fellow, and the white glove technical, product design, marketing, bizdev, and fundraising support from the Union core team that comes along with it.</p>
 <p>Throughout the program, the U Comb builders continually impressed the <a href="https://crackedlabs.xyz/">Cracked Labs</a> and Union core teams with their ingenuity, technical acumen, rapid iteration, and grit. When it came time for pitch day, Union’s Head of Growth <a href="https://x.com/tokenfemalehire/status/1923067514054996047">Kaylei Fleming</a> said it best: they set the standard for the next cohort way too high.</p>
 <p>From mobile-first Bitcoin and commodities exchanges to DePIN and AI agent frameworks, the Fellows’ projects are varied, and with multiple members on every team, this second cohort of fellows is even larger than the first. The <a href="https://union.build/ecosystem">Union ecosystem</a> is rapidly expanding, and there’s never been a better time to join the Union.</p>

@@ -1,16 +1,7 @@
----
-title: "Union Labs Partners with Avalanche: Advancing Interoperability with Project Ridge"
-date: "2024-12-03"
-author: "Emir Beriker"
-description: "Creating a secure IBC connection between Avalanche L1s and the Union network."
-cover: "/content/assets/4yHArXI19xheQz1yVrgpBX/Union-X-Avalanche-Blog.png"
-coverAlt: "Announcement graphic with the Union logo on one side and the Avalanche logo on the other."
-hidden: false
-published: true
-sourceId: "2faWny9VCMDjZ9KgvutZAR"
-createdAt: "2024-11-20T20:19:43.312Z"
-updatedAt: "2024-12-05T16:06:35.258Z"
----
+______________________________________________________________________
+
+## title: "Union Labs Partners with Avalanche: Advancing Interoperability with Project Ridge" date: "2024-12-03" author: "Emir Beriker" description: "Creating a secure IBC connection between Avalanche L1s and the Union network." cover: "/content/assets/4yHArXI19xheQz1yVrgpBX/Union-X-Avalanche-Blog.png" coverAlt: "Announcement graphic with the Union logo on one side and the Avalanche logo on the other." hidden: false published: true sourceId: "2faWny9VCMDjZ9KgvutZAR" createdAt: "2024-11-20T20:19:43.312Z" updatedAt: "2024-12-05T16:06:35.258Z"
+
 <p>We're excited to team up with <a href="https://www.avax.network/">Avalanche</a> to launch Project Ridge, which will bring trustless, super-efficient interoperability to Avalanche L1s.</p>
 <p>This collaboration will create a trustless, secure <a href="https://www.ibcprotocol.dev/">IBC</a> connection to Avalanche L1s, enhancing liquidity and cross-chain efficiency. Union’s ZK technology and consensus verification will provide Avalanche L1s with access to all L1s, L2s, and appchains within Union’s network.</p>
 <p>As part of the integration, Union will receive an <a href="https://www.avax.network/infrabuidl-program">InfraBUIDL() Grant</a> from the <a href="https://x.com/AvalancheFDN">Avalanche Foundation</a> to cover development and audit efforts.</p>

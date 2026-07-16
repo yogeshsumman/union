@@ -1,16 +1,7 @@
----
-title: "The Union Token Specification"
-date: "2025-06-25"
-author: "Union Foundation"
-description: "The Union Foundation is officially announcing that the Union token will be ERC20 compatible, and issued on Ethereum."
-cover: "/content/assets/yjU4Qt796ae6NasFEu3SG/UNION-ERC20.png"
-coverAlt: "An image of a man looking at a whale shark, with an Ethereum logo overlaid, with the words \"Union Token Specification: ERC20 Compatible\" and the logo of the Union Foundation."
-hidden: false
-published: true
-sourceId: "11EutI6GUqPyTx8cQZ1mI8"
-createdAt: "2025-06-24T22:49:19.039Z"
-updatedAt: "2025-06-25T16:43:06.868Z"
----
+______________________________________________________________________
+
+## title: "The Union Token Specification" date: "2025-06-25" author: "Union Foundation" description: "The Union Foundation is officially announcing that the Union token will be ERC20 compatible, and issued on Ethereum." cover: "/content/assets/yjU4Qt796ae6NasFEu3SG/UNION-ERC20.png" coverAlt: "An image of a man looking at a whale shark, with an Ethereum logo overlaid, with the words "Union Token Specification: ERC20 Compatible" and the logo of the Union Foundation." hidden: false published: true sourceId: "11EutI6GUqPyTx8cQZ1mI8" createdAt: "2025-06-24T22:49:19.039Z" updatedAt: "2025-06-25T16:43:06.868Z"
+
 <p>The Union Foundation is officially announcing that the Union token will be ERC20 compatible, and available on Ethereum. This, alongside the development and deployment of <a href="https://union.build/blog/crosschain-governance-by-union">Crosschain Governance</a> on EVM chains, will maximize infrastructure support, reduce liquidity fragmentation, and enable the smoothest UX for Union ecosystem participants to access and utilize the Union token.</p>
 <p>As a truly crosschain network, designed to link every chain across every ecosystem, it’s important that the Union token is truly crosschain as well. As an ERC20 token on the largest and most developed blockchain ecosystem in the world, Union gains access to a myriad of benefits.</p>
 <p>Key benefits include:</p>

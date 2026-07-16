@@ -1,16 +1,7 @@
----
-title: "Union Foundation Announces Initial Union Ecosystem Grants – Escher Finance, Fluton, & Dextr"
-date: "2025-03-11"
-author: "Bradley Laws"
-description: "Union Foundation is supporting builders who are boosting transaction activity, increasing TVL, and expanding Union’s coverage across different verticals."
-cover: "/content/assets/65F5azPX0gZUDhJUsPiI37/GRANTS-BLOG.png"
-coverAlt: "Graphic that shows the Union Foundation, with lines to the initial ecosystem grants of Fluton, Dextr, amd Escher Finance."
-hidden: false
-published: true
-sourceId: "1fli3mqOtHFVEdRqaixexW"
-createdAt: "2025-03-11T15:54:42.712Z"
-updatedAt: "2025-03-12T14:50:34.870Z"
----
+______________________________________________________________________
+
+## title: "Union Foundation Announces Initial Union Ecosystem Grants – Escher Finance, Fluton, & Dextr" date: "2025-03-11" author: "Bradley Laws" description: "Union Foundation is supporting builders who are boosting transaction activity, increasing TVL, and expanding Union’s coverage across different verticals." cover: "/content/assets/65F5azPX0gZUDhJUsPiI37/GRANTS-BLOG.png" coverAlt: "Graphic that shows the Union Foundation, with lines to the initial ecosystem grants of Fluton, Dextr, amd Escher Finance." hidden: false published: true sourceId: "1fli3mqOtHFVEdRqaixexW" createdAt: "2025-03-11T15:54:42.712Z" updatedAt: "2025-03-12T14:50:34.870Z"
+
 <p>The Union Foundation has kicked off the Union Grants Program with its first three grant recipients: <a href="https://www.escher.finance/">Escher Finance</a>, <a href="https://fluton.io/">Fluton</a>, and <a href="https://www.dextr.exchange/">Dextr</a>. These projects—some of which originated in the first Union Fellowship—are among the earliest projects building on Union.</p>
 <p>Here’s what the Grants Program entails and why these projects were selected.</p>
 <h2>The Union Grants Program</h2>

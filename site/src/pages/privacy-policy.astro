@@ -1,16 +1,19 @@
 ---
-import ContainedSection from "../components/ContainedSection.astro";
-import AnimationLayout from "../layouts/AnimationLayout.astro";
-import { getEntry, render } from "astro:content";
+import { getEntry, render } from "astro:content"
+import ContainedSection from "../components/ContainedSection.astro"
+import AnimationLayout from "../layouts/AnimationLayout.astro"
 
-const privacyPolicy = await getEntry("legal", "privacy-policy");
+const privacyPolicy = await getEntry("legal", "privacy-policy")
 if (!privacyPolicy) {
-  throw new Error("Missing local privacy policy content");
+  throw new Error("Missing local privacy policy content")
 }
-const { Content } = await render(privacyPolicy);
+const { Content } = await render(privacyPolicy)
 ---
 
-<AnimationLayout title={privacyPolicy.data.title} text="">
+<AnimationLayout
+  title={privacyPolicy.data.title}
+  text=""
+>
   <ContainedSection className="">
     <Content />
   </ContainedSection>

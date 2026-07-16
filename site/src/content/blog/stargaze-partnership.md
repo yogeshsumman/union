@@ -1,16 +1,7 @@
----
-title: "Union and Stargaze Bridge Blue-Chip NFTs to Cosmos"
-date: "2024-05-16"
-author: "0xkaiserkarel"
-description: "Union’s zk-IBC bridge will be used to transport NFTs for the first time between Ethereum and IBC"
-cover: "/content/assets/5Yr0wsQMt1deGbd6OjFEg5/Stargaze-Cover.png"
-coverAlt: "Union x Stargaze"
-hidden: false
-published: true
-sourceId: "5ccvrjfEbm7BbxMaYlDqsq"
-createdAt: "2024-07-18T17:30:29.572Z"
-updatedAt: "2024-07-25T16:40:06.576Z"
----
+______________________________________________________________________
+
+## title: "Union and Stargaze Bridge Blue-Chip NFTs to Cosmos" date: "2024-05-16" author: "0xkaiserkarel" description: "Union’s zk-IBC bridge will be used to transport NFTs for the first time between Ethereum and IBC" cover: "/content/assets/5Yr0wsQMt1deGbd6OjFEg5/Stargaze-Cover.png" coverAlt: "Union x Stargaze" hidden: false published: true sourceId: "5ccvrjfEbm7BbxMaYlDqsq" createdAt: "2024-07-18T17:30:29.572Z" updatedAt: "2024-07-25T16:40:06.576Z"
+
 <p><a href="https://union.build/">Union</a>, the Modular Interoperability Layer, is partnering with the zero-gas NFT app chain <a href="https://www.stargaze.zone/">Stargaze</a> to enable the transfer of blue-chip Ethereum NFTs to Cosmos via its trustless, decentralized zkIBC bridge. This collaboration marks the first initiative aimed at achieving trustless interoperability for NFTs between these two ecosystems.</p>
 <p>This integration promises significant benefits for collections in both ecosystems. Once completed, Stargaze NFT collections such as <a href="https://www.stargaze.zone/m/stars19jq6mj84cnt9p7sagjxqf8hxtczwc8wlpuwe4sh62w45aheseues57n420/tokens">Bad Kids</a> will get exposure to the Ethereum ecosystem by being listed in Ethereum marketplaces. Similarly, blue chip Ethereum NFTs such as <a href="https://www.larvalabs.com/cryptopunks">Cryptopunks</a>, <a href="https://boredapeyachtclub.com/">BAYC</a> and <a href="https://pudgypenguins.com/">Pudgy Penguins</a> will find their new home in Stargaze. NFT collections minted on Stargaze, such as the Celestine Sloth Society, will also benefit from the expansion to ETH. This expansion will result in increased volume across both sides of the ecosystem, generating more royalty fees for creators.</p>
 <img src="/content/assets/6L6dFXuTeJ9QDAFVT2dYPp/union-polygon-stargaze.avif" alt="union-polygon-stargaze">

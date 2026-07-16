@@ -1,9 +1,12 @@
 ---
-import AnimationLayout from "#/layouts/AnimationLayout.astro";
-import learningData from "#/content-data/learn.json";
-import DeepDiveSection from "../components/sections/DeepDiveSection.astro";
+import learningData from "#/content-data/learn.json"
+import AnimationLayout from "#/layouts/AnimationLayout.astro"
+import DeepDiveSection from "../components/sections/DeepDiveSection.astro"
 ---
 
-<AnimationLayout title="Learn" text="Study Union.">
+<AnimationLayout
+  title="Learn"
+  text="Study Union."
+>
   <DeepDiveSection entries={learningData} />
 </AnimationLayout>

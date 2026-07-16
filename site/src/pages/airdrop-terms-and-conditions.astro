@@ -1,16 +1,19 @@
 ---
-import ContainedSection from "../components/ContainedSection.astro";
-import AnimationLayout from "../layouts/AnimationLayout.astro";
-import { getEntry, render } from "astro:content";
+import { getEntry, render } from "astro:content"
+import ContainedSection from "../components/ContainedSection.astro"
+import AnimationLayout from "../layouts/AnimationLayout.astro"
 
-const airdropTerms = await getEntry("legal", "airdrop-terms-and-conditions");
+const airdropTerms = await getEntry("legal", "airdrop-terms-and-conditions")
 if (!airdropTerms) {
-  throw new Error("Missing local airdrop terms content");
+  throw new Error("Missing local airdrop terms content")
 }
-const { Content } = await render(airdropTerms);
+const { Content } = await render(airdropTerms)
 ---
 
-<AnimationLayout title={airdropTerms.data.title} text="">
+<AnimationLayout
+  title={airdropTerms.data.title}
+  text=""
+>
   <ContainedSection className="">
     <Content />
   </ContainedSection>

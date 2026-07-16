@@ -1,16 +1,7 @@
----
-title: "Introducing Private Bridging"
-date: "2025-11-24"
-author: "union_build"
-description: "A next-gen ZK protocol that makes crosschain transfers fully private, auditable and scalable while bringing unmatched confidentiality to decentralized finance."
-cover: "/content/assets/33CPLtRtOuYevYcFdpeHPn/Private-Bridging.png"
-coverAlt: "Private Bridging"
-hidden: false
-published: true
-sourceId: "5r7evcdIr9U0QjrswO9cTR"
-createdAt: "2025-11-24T14:57:45.469Z"
-updatedAt: "2025-11-24T18:01:57.640Z"
----
+______________________________________________________________________
+
+## title: "Introducing Private Bridging" date: "2025-11-24" author: "union_build" description: "A next-gen ZK protocol that makes crosschain transfers fully private, auditable and scalable while bringing unmatched confidentiality to decentralized finance." cover: "/content/assets/33CPLtRtOuYevYcFdpeHPn/Private-Bridging.png" coverAlt: "Private Bridging" hidden: false published: true sourceId: "5r7evcdIr9U0QjrswO9cTR" createdAt: "2025-11-24T14:57:45.469Z" updatedAt: "2025-11-24T18:01:57.640Z"
+
 <p>Union is introducing <a href="https://pdfs.cdn.union.build/union-private-bridging.pdf">Private Bridging</a>, a zero-knowledge protocol that enables private transfers across chains. The system allows users to bridge assets without revealing the source chain, source address, or transaction history. Activity remains confidential to the public while still being auditable for compliance.</p>
 <p>Privacy is a requirement for broad adoption in decentralized finance. In public blockchain systems, all transfers, balances, and addresses are visible, which can expose operational activity. Current privacy solutions typically work only within a single chain and do not preserve confidentiality when assets are bridged to other networks. Multichain activity adds complexity, as bridging can reveal movements across networks, effectively linking activity across multiple chains. A strong privacy system should work across different blockchains, keeping data private while still allowing verification when needed.</p>
 <p>Union addresses these challenges with a trust-minimized, ZK protocol for ERC-20 transfers across EVM chains. The design enables confidential crosschain transfers while remaining auditable for authorized parties. Tokens can be transferred without publicly exposing the sender, receiver, or the originating chain, providing a privacy framework that functions at scale across multiple networks.</p>

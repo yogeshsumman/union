@@ -1,21 +1,31 @@
 ---
-import Card from "#/components/Card.astro";
-import ContainedSection from "#/components/ContainedSection.astro";
-import AnimationLayout from "#/layouts/AnimationLayout.astro";
-import { getCollection } from "astro:content";
+import Card from "#/components/Card.astro"
+import ContainedSection from "#/components/ContainedSection.astro"
+import AnimationLayout from "#/layouts/AnimationLayout.astro"
+import { getCollection } from "astro:content"
 
 const publishedBlogPosts = (
-  await getCollection("blog", (post) =>
-    import.meta.env.PROD ? post.data.published && !post.data.hidden : true,
+  await getCollection(
+    "blog",
+    (post) => import.meta.env.PROD ? post.data.published && !post.data.hidden : true,
   )
-).sort((left, right) => right.data.date.getTime() - left.data.date.getTime());
+).sort((left, right) => right.data.date.getTime() - left.data.date.getTime())
 ---
 
-<AnimationLayout title="Blog" text="Stay updated on our progress.">
-  <ContainedSection grid className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+<AnimationLayout
+  title="Blog"
+  text="Stay updated on our progress."
+>
+  <ContainedSection
+    grid
+    className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+  >
     {
       publishedBlogPosts.map((blogPost) => (
-        <a class="pointer-cursor" href={`/blog/${blogPost.slug}`}>
+        <a
+          class="pointer-cursor"
+          href={`/blog/${blogPost.slug}`}
+        >
           <Card
             hoverScale
             class="group size-full rounded-tl-[2rem] overflow-hidden"
@@ -44,12 +54,12 @@ const publishedBlogPosts = (
 </AnimationLayout>
 
 <style is:inline>
-  *::selection {
-    background-color: #a0ecfd;
-    color: #000;
-  }
-  .card-rounded {
-    border-top-left-radius: 0 50%;
-    overflow: hidden;
-  }
+*::selection {
+  background-color: #a0ecfd;
+  color: #000;
+}
+.card-rounded {
+  border-top-left-radius: 0 50%;
+  overflow: hidden;
+}
 </style>

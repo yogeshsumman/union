@@ -1,16 +1,7 @@
----
-title: "Connecting Polygon to IBC by Unifying the AggLayer"
-date: "2024-04-18"
-author: "0xkaiserkarel"
-description: "Union is plugging into the AggLayer, developed by leading L2 developer Polygon Labs, to facilitate message passing and asset transfers between the Polygon ecosystem and IBC-enabled chains."
-cover: "/content/assets/1veCws4YPYBHNAB78dAbSG/Polygon-Partner-Blog.png"
-coverAlt: "polygon-integration-cover"
-hidden: false
-published: true
-sourceId: "2oO3FvvvwOZIRcrWtitRw2"
-createdAt: "2024-07-18T17:50:24.034Z"
-updatedAt: "2024-11-08T15:40:21.260Z"
----
+______________________________________________________________________
+
+## title: "Connecting Polygon to IBC by Unifying the AggLayer" date: "2024-04-18" author: "0xkaiserkarel" description: "Union is plugging into the AggLayer, developed by leading L2 developer Polygon Labs, to facilitate message passing and asset transfers between the Polygon ecosystem and IBC-enabled chains." cover: "/content/assets/1veCws4YPYBHNAB78dAbSG/Polygon-Partner-Blog.png" coverAlt: "polygon-integration-cover" hidden: false published: true sourceId: "2oO3FvvvwOZIRcrWtitRw2" createdAt: "2024-07-18T17:50:24.034Z" updatedAt: "2024-11-08T15:40:21.260Z"
+
 <p>Union, the Modular Interoperability Layer, is plugging into the AggLayer, developed by leading L2 developer Polygon Labs, to facilitate message passing and asset transfers between the Polygon ecosystem and IBC-enabled chains. This integration will position Union as the de-facto IBC gateway in and out of the AggLayer, unlocking liquidity flow between two of the largest blockchain ecosystems: Polygon and Cosmos.</p>
 <p>The AggLayer was designed to solve the scalability problem in blockchain, which refers to scaling access to shared state and liquidity across multiple chains. To address this requires a new approach to blockchain architecture, namely, aggregated blockchains. Polygon Labs researchers and engineers have designed a solution – the aggregation layer, or AggLayer – which will seamlessly connect any ZK-enabled L2 or L1 chain, regardless of execution environment, for near-instant cross-chain transactions, and shared state and liquidity across chains.</p>
 <p>This includes chains leveraging Polygon Chain Development Kit (CDK), a modular, open source software toolkit for blockchain developers which supports the installation and configuration of a variety of chain architectures. Polygon CDK empowers developers to launch new L2 chains running Polygon zkEVM technology on Ethereum or, in the future, transition existing Layer 1 (L1) chains into zkEVM L2s.</p>

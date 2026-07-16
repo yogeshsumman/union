@@ -1,16 +1,7 @@
----
-title: "Union Partners with Rome Protocol to Bring Trustless Interoperability to Solana"
-date: "2024-11-26"
-author: "Stephen Gee"
-description: "The collaboration will leverage Union’s infrastructure and the Rome SDK to bring decentralized interoperability to the Solana ecosystem."
-cover: "/content/assets/3McpI6fygHM9TxW0LAvbXe/Union-X-ROME-Blog.png"
-coverAlt: "Partnership graphic with Union logo and Rome Protocol logo."
-hidden: false
-published: true
-sourceId: "5O73MaaVOwqFZERqcwCjNi"
-createdAt: "2024-11-22T17:18:35.100Z"
-updatedAt: "2024-11-26T16:01:18.774Z"
----
+______________________________________________________________________
+
+## title: "Union Partners with Rome Protocol to Bring Trustless Interoperability to Solana" date: "2024-11-26" author: "Stephen Gee" description: "The collaboration will leverage Union’s infrastructure and the Rome SDK to bring decentralized interoperability to the Solana ecosystem." cover: "/content/assets/3McpI6fygHM9TxW0LAvbXe/Union-X-ROME-Blog.png" coverAlt: "Partnership graphic with Union logo and Rome Protocol logo." hidden: false published: true sourceId: "5O73MaaVOwqFZERqcwCjNi" createdAt: "2024-11-22T17:18:35.100Z" updatedAt: "2024-11-26T16:01:18.774Z"
+
 <p>Union is partnering with <a href="https://www.rome.builders/">Rome Protocol</a> to bring trustless interoperability to <a href="https://solana.com/">Solana</a>. Once complete, this integration will unlock decentralized asset transfer and message passing between the Solana ecosystem and all Union-connected chains—including Ethereum, Cosmos, Bitcoin L2s, and more.</p>
 <p>The collaboration will leverage Union’s infrastructure and the Rome SDK to support secure cross-chain transactions, ensuring fast and reliable finality across chains.</p>
 <h2>Bringing Liquidity and Users to Solana</h2>

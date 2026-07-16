@@ -1,16 +1,7 @@
----
-title: "Union Breaks the Record for Largest Groth16 Trusted Setup Ceremony ahead of its Mainnet Launch"
-date: "2025-06-09"
-author: "Emir Beriker"
-description: "With 4,683 successful contributions and 4,590 still in the queue, Union breaks the record previously held by Manta Network."
-cover: "/content/assets/1e9erfcF7VJVw8cPGK2tLz/RECORD-BREAK-BLOG.png"
-coverAlt: "Image with a whale shark and the words \"Union Breaks Record For Largest Trusted Setup Ceremony\""
-hidden: false
-published: true
-sourceId: "190DdmQfGrzui5DlCeRykW"
-createdAt: "2025-05-30T16:13:32.199Z"
-updatedAt: "2025-06-09T17:42:37.322Z"
----
+______________________________________________________________________
+
+## title: "Union Breaks the Record for Largest Groth16 Trusted Setup Ceremony ahead of its Mainnet Launch" date: "2025-06-09" author: "Emir Beriker" description: "With 4,683 successful contributions and 4,590 still in the queue, Union breaks the record previously held by Manta Network." cover: "/content/assets/1e9erfcF7VJVw8cPGK2tLz/RECORD-BREAK-BLOG.png" coverAlt: "Image with a whale shark and the words "Union Breaks Record For Largest Trusted Setup Ceremony"" hidden: false published: true sourceId: "190DdmQfGrzui5DlCeRykW" createdAt: "2025-05-30T16:13:32.199Z" updatedAt: "2025-06-09T17:42:37.322Z"
+
 <p><strong>June 9</strong><strong>th, 2025, Dover, DE</strong> - It’s official: 4,664 people have contributed to Union’s Trusted Setup Ceremony, which makes it the <a href="https://blockworks-research.beehiiv.com/p/union-sets-cryptography-record-262638fb2d77bfe3">largest Groth16 trusted setup ceremony to date</a>. This exceeds the 4,328 contributions of the previous record-breaking ceremony, performed by <a href="https://cointelegraph.com/news/manta-network-conducts-record-breaking-trusted-setup-ceremony-4-000-contribute">Manta Network in 2023</a>.</p>
 <p>This number is set to grow. Though the <a href="https://x.com/union_build/status/1923481541084315743">queue is closed</a>, those already in the queue are still able to contribute, which will add hundreds of contributions before the ceremony fully closes.</p>
 <img src="/content/assets/4fwsgYW61rdNglbHmSGtRn/ARCADE-CABINET-crop.png" alt="Arcade cabinet with the top trusted setup ceremonies on it, with Union on top.">

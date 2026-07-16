@@ -1,16 +1,7 @@
----
-title: "Transparent and Permissionless - Union Is Open Source"
-date: "2024-08-14"
-author: "Stephen Gee"
-description: "Union Labs is open sourcing the Union protocol, inviting builders to contribute to and permissionlessly integrate with Union."
-cover: "/content/assets/6YjcLwNtyWgABHwsMV8lre/OPEN-SOURCE-BLOG-L.png"
-coverAlt: "A graphic with code in the background, that says \"Union is now <OPEN SOURCE>\"."
-hidden: false
-published: true
-sourceId: "45f4xOK1456nlsrweIB0Qh"
-createdAt: "2024-08-13T19:03:47.281Z"
-updatedAt: "2024-11-08T15:42:46.802Z"
----
+______________________________________________________________________
+
+## title: "Transparent and Permissionless - Union Is Open Source" date: "2024-08-14" author: "Stephen Gee" description: "Union Labs is open sourcing the Union protocol, inviting builders to contribute to and permissionlessly integrate with Union." cover: "/content/assets/6YjcLwNtyWgABHwsMV8lre/OPEN-SOURCE-BLOG-L.png" coverAlt: "A graphic with code in the background, that says "Union is now <OPEN SOURCE>"." hidden: false published: true sourceId: "45f4xOK1456nlsrweIB0Qh" createdAt: "2024-08-13T19:03:47.281Z" updatedAt: "2024-11-08T15:42:46.802Z"
+
 <p>Union, the modular ZK interoperability layer for message passing and asset transfers, is now fully open source.</p>
 <ul><li><p><a href="https://github.com/unionlabs/union">See the Union GitHub repo</a></p></li></ul>
 <p>This opens up the Union repo to community contributions, and enables protocols to permissionlessly integrate and build on Union. Visit the <a href="https://github.com/unionlabs/union">Union repository</a> for a quickstart guide.</p>

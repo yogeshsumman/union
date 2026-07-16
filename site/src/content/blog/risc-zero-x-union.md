@@ -1,16 +1,7 @@
----
-title: "Union Partners With RISC Zero to Optimize Proof Generation"
-date: "2024-11-13"
-author: "Stephen Gee"
-description: "RISC Zero is collaborating with Union to optimize light client proof aggregation, combining the strengths of both technologies."
-cover: "/content/assets/7VJRQgR1lsAO6AknxkOpo/Union-X-Risc-Zero-Blog-1.png"
-coverAlt: "Partnership graphic with Union on one side, and Risc Zero on the other."
-hidden: false
-published: true
-sourceId: "6dPfHxs23DXqG0UswPDCND"
-createdAt: "2024-11-11T15:21:28.037Z"
-updatedAt: "2024-11-25T15:59:59.996Z"
----
+______________________________________________________________________
+
+## title: "Union Partners With RISC Zero to Optimize Proof Generation" date: "2024-11-13" author: "Stephen Gee" description: "RISC Zero is collaborating with Union to optimize light client proof aggregation, combining the strengths of both technologies." cover: "/content/assets/7VJRQgR1lsAO6AknxkOpo/Union-X-Risc-Zero-Blog-1.png" coverAlt: "Partnership graphic with Union on one side, and Risc Zero on the other." hidden: false published: true sourceId: "6dPfHxs23DXqG0UswPDCND" createdAt: "2024-11-11T15:21:28.037Z" updatedAt: "2024-11-25T15:59:59.996Z"
+
 <p>Union is pleased to announce its partnership with <a href="https://risczero.com/">RISC Zero</a> to collaborate on Union Core v2. This integration aims to optimize light client proof aggregation, combining the strengths of both technologies to create faster and more efficient cross-chain verification systems using RISC Zero’s zkVM and Bonsai proving service.</p>
 <p>By leveraging RISC Zero’s zkVM and Bonsai, Union will enhance the efficiency of aggregating various proof types and further improve its prover system, Galois. This collaboration with RISC Zero will enable hyper-performant proof generation, resulting in faster bridging and cost-effective proof generation. </p>
 <p>Union’s high-performance ZK circuits will benefit from RISC Zero’s capabilities, enabling:</p>

@@ -1,16 +1,7 @@
----
-title: "Announcing U Combinator: Union Incubator in Collaboration Cracked Labs"
-date: "2025-02-18"
-author: "Stephen Gee"
-description: "Announcing U Combinator: a Union-focused incubator program in collaboration with Cracked Labs.  50 teams compete to join the next cohort of Union Fellows."
-cover: "/content/assets/5Lg8Y47RO4pLY1BjRXGVGx/U-Combinator-Blog.png"
-coverAlt: "Graphic with the words U Combinator by Union with Cracked Labs."
-hidden: false
-published: true
-sourceId: "7qGp87PbcZ65vywUaQj1bD"
-createdAt: "2025-02-18T02:52:36.901Z"
-updatedAt: "2025-02-18T19:57:15.305Z"
----
+______________________________________________________________________
+
+## title: "Announcing U Combinator: Union Incubator in Collaboration Cracked Labs" date: "2025-02-18" author: "Stephen Gee" description: "Announcing U Combinator: a Union-focused incubator program in collaboration with Cracked Labs.  50 teams compete to join the next cohort of Union Fellows." cover: "/content/assets/5Lg8Y47RO4pLY1BjRXGVGx/U-Combinator-Blog.png" coverAlt: "Graphic with the words U Combinator by Union with Cracked Labs." hidden: false published: true sourceId: "7qGp87PbcZ65vywUaQj1bD" createdAt: "2025-02-18T02:52:36.901Z" updatedAt: "2025-02-18T19:57:15.305Z"
+
 <p>Announcing <strong>U Combinator</strong>: a Union-focused incubator program in collaboration with <a href="https://crackedlabs.xyz/">Cracked Labs</a>. Taking place from Feb 18 to May 15, 50 teams will compete for 10 spots in the second cohort of the Union Fellowship, with workshops, prototyping, MVP feedback, and pitch practice along the way.</p>
 <p>Here’s everything you need to know about U Combinator, including key dates, the benefits of becoming a Union Fellow, and why Union is partnering with Cracked Labs on this important project.</p>
 <h2>Building the Next Wave of Union Ecosystem Projects</h2>

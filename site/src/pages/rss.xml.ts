@@ -1,14 +1,14 @@
-import rss from "@astrojs/rss";
-import type { APIContext } from "astro";
-import { getCollection, type CollectionEntry } from "astro:content";
+import rss from "@astrojs/rss"
+import type { APIContext } from "astro"
+import { type CollectionEntry, getCollection } from "astro:content"
 
-type BlogEntry = CollectionEntry<"blog">;
+type BlogEntry = CollectionEntry<"blog">
 
 export async function GET(context: APIContext) {
-  const blog = await getCollection("blog");
-  const site = context.site;
+  const blog = await getCollection("blog")
+  const site = context.site
   if (!site) {
-    throw new Error("Missing site metadata");
+    throw new Error("Missing site metadata")
   }
 
   return rss({
@@ -19,8 +19,7 @@ export async function GET(context: APIContext) {
     items: blog
       .filter((post: BlogEntry) => post.data.published && !post.data.hidden)
       .sort(
-        (left: BlogEntry, right: BlogEntry) =>
-          right.data.date.getTime() - left.data.date.getTime(),
+        (left: BlogEntry, right: BlogEntry) => right.data.date.getTime() - left.data.date.getTime(),
       )
       .map((post: BlogEntry) => ({
         title: post.data.title,
@@ -30,5 +29,5 @@ export async function GET(context: APIContext) {
       })),
     // (optional) inject custom xml
     customData: `<language>en-us</language>`,
-  });
+  })
 }

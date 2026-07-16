@@ -1,10 +1,7 @@
----
-title: "Terms of Service"
-sourceId: "7r42B6KGZ79je8cTEEyvom"
-published: true
-createdAt: "2025-08-28T22:03:11.127Z"
-updatedAt: "2025-08-29T16:07:03.271Z"
----
+______________________________________________________________________
+
+## title: "Terms of Service" sourceId: "7r42B6KGZ79je8cTEEyvom" published: true createdAt: "2025-08-28T22:03:11.127Z" updatedAt: "2025-08-29T16:07:03.271Z"
+
 <p class="mb-4 text-justify">Last Updated: August 28, 2025</p>
 <p class="mb-4 text-justify">These Terms of Service (these “<strong>Terms</strong>”) constitutes a binding legal agreement between you and Union.fi Labs, Inc. (“<strong>Union</strong>,” “<strong>we</strong>,” “<strong>our</strong>,” or “<strong>us</strong>”). These Terms govern your access to and use of our electronic platforms and applications including <a href="https://app.union.build/">https://app.union.build/</a> (collectively, the “<strong>Platform</strong>”) and all related products, services, programs, technologies, software, tools, features, and information or data available or communicated via the Platform (collectively, the “<strong>Services</strong>”). </p>
 <p class="mb-4 text-justify">By accessing or using the Services, you agree that you have read, understand, and accept these Terms. If you do not agree to these Terms then you must not use the Services and we do not grant, shall not grant, or be deemed to grant to you, the license to access or use the Services.</p>

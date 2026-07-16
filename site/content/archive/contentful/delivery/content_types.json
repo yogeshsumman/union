@@ -279,9 +279,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroLogo"
-                ]
+                "linkContentType": ["auroLogo"]
               }
             ],
             "linkType": "Entry"
@@ -354,9 +352,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroLogo"
-                ]
+                "linkContentType": ["auroLogo"]
               }
             ],
             "linkType": "Entry"
@@ -411,9 +407,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroStatItem"
-                ]
+                "linkContentType": ["auroStatItem"]
               }
             ],
             "linkType": "Entry"
@@ -588,9 +582,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroSecuritySlide"
-                ]
+                "linkContentType": ["auroSecuritySlide"]
               }
             ],
             "linkType": "Entry"
@@ -737,9 +729,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroFooterLink"
-                ]
+                "linkContentType": ["auroFooterLink"]
               }
             ],
             "linkType": "Entry"
@@ -849,9 +839,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroFooterSection"
-                ]
+                "linkContentType": ["auroFooterSection"]
               }
             ],
             "linkType": "Entry"
@@ -961,9 +949,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "auroFeatureSlide"
-                ]
+                "linkContentType": ["auroFeatureSlide"]
               }
             ],
             "linkType": "Entry"
@@ -1063,9 +1049,7 @@
           "linkType": "Entry",
           "validations": [
             {
-              "linkContentType": [
-                "roadmapSection"
-              ]
+              "linkContentType": ["roadmapSection"]
             }
           ]
         },
@@ -1226,9 +1210,7 @@
           "linkType": "Entry",
           "validations": [
             {
-              "linkContentType": [
-                "roadmapSubsection"
-              ]
+              "linkContentType": ["roadmapSubsection"]
             }
           ]
         },
@@ -1421,9 +1403,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "ecosystemCategory"
-                ]
+                "linkContentType": ["ecosystemCategory"]
               }
             ],
             "linkType": "Entry"

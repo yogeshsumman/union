@@ -1,16 +1,7 @@
----
-title: "ZK-Powered Consensus Verification"
-date: "2024-02-26"
-author: "0xkaiserkarel"
-description: "Union democratizes the fundamental Web3 mechanism of cross-ecosystem connection."
-cover: "/content/assets/1SPSJId4OelcjI3Kwu61a1/ZK-CONSENSUS-BLOG.png"
-coverAlt: "Cover image for ZK-powered Consensus Verification blog article, by Union."
-hidden: false
-published: true
-sourceId: "6GjJWFwRKuTOV2fh3EM03s"
-createdAt: "2024-07-23T21:11:58.412Z"
-updatedAt: "2024-07-25T15:36:57.260Z"
----
+______________________________________________________________________
+
+## title: "ZK-Powered Consensus Verification" date: "2024-02-26" author: "0xkaiserkarel" description: "Union democratizes the fundamental Web3 mechanism of cross-ecosystem connection." cover: "/content/assets/1SPSJId4OelcjI3Kwu61a1/ZK-CONSENSUS-BLOG.png" coverAlt: "Cover image for ZK-powered Consensus Verification blog article, by Union." hidden: false published: true sourceId: "6GjJWFwRKuTOV2fh3EM03s" createdAt: "2024-07-23T21:11:58.412Z" updatedAt: "2024-07-25T15:36:57.260Z"
+
 <p>Users and liquidity are becoming increasingly fragmented across many L1 and L2 execution layers in Web3. A secure means of interoperability to enable communication among these isolated systems is critical.</p>
 <p>As fragmentation persists, user experience (UX) suffers. Breaking away from a singular, monolithic chain like Ethereum also means degraded composability. Users, applications, and liquidity are spreading across ecosystems with different network designs, validator sets, and consensus mechanisms. This specialization and optimization of execution layers for specific use cases and features provides the basis for more performant applications but introduces friction to user experience and composability.</p>
 <p>For users to seamlessly interact across ecosystems and to unify liquidity across different networks without losing composability among applications, blockchains need to exchange and verify data accurately. Trust-minimized consensus verification, built by Union, addresses this challenge by verifying one chain’s state in the execution environment of another without introducing additional risk or trust assumptions.</p>

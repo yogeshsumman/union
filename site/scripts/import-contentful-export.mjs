@@ -1,18 +1,18 @@
 // @ts-nocheck
-import { copyFile, mkdir, readFile, stat, writeFile } from "node:fs/promises";
-import { basename, extname, join, relative } from "node:path";
-import { fileURLToPath } from "node:url";
+import { copyFile, mkdir, readFile, stat, writeFile } from "node:fs/promises"
+import { basename, extname, join, relative } from "node:path"
+import { fileURLToPath } from "node:url"
 
-const LOCALE = "en-US";
-const SITE_DIRECTORY = fileURLToPath(new URL("..", import.meta.url));
-const REPOSITORY_ROOT = fileURLToPath(new URL("../..", import.meta.url));
+const LOCALE = "en-US"
+const SITE_DIRECTORY = fileURLToPath(new URL("..", import.meta.url))
+const REPOSITORY_ROOT = fileURLToPath(new URL("../..", import.meta.url))
 
-const [previewDirectory, deliveryDirectory] = process.argv.slice(2);
+const [previewDirectory, deliveryDirectory] = process.argv.slice(2)
 
 if (!previewDirectory || !deliveryDirectory) {
   throw new Error(
     "Usage: node site/scripts/import-contentful-export.mjs <preview-export> <delivery-export>",
-  );
+  )
 }
 
 const archiveDirectory = join(
@@ -20,24 +20,26 @@ const archiveDirectory = join(
   "content",
   "archive",
   "contentful",
-);
-const assetDirectory = join(SITE_DIRECTORY, "public", "content", "assets");
-const dataDirectory = join(SITE_DIRECTORY, "src", "content-data");
-const blogDirectory = join(SITE_DIRECTORY, "src", "content", "blog");
-const legalDirectory = join(SITE_DIRECTORY, "src", "content", "legal");
+)
+const assetDirectory = join(SITE_DIRECTORY, "public", "content", "assets")
+const dataDirectory = join(SITE_DIRECTORY, "src", "content-data")
+const blogDirectory = join(SITE_DIRECTORY, "src", "content", "blog")
+const legalDirectory = join(SITE_DIRECTORY, "src", "content", "legal")
 
-for (const directory of [
-  archiveDirectory,
-  assetDirectory,
-  dataDirectory,
-  blogDirectory,
-  legalDirectory,
-]) {
-  await mkdir(directory, { recursive: true });
+for (
+  const directory of [
+    archiveDirectory,
+    assetDirectory,
+    dataDirectory,
+    blogDirectory,
+    legalDirectory,
+  ]
+) {
+  await mkdir(directory, { recursive: true })
 }
 
 async function readExport(directory, name) {
-  return JSON.parse(await readFile(join(directory, `${name}.json`), "utf8"));
+  return JSON.parse(await readFile(join(directory, `${name}.json`), "utf8"))
 }
 
 const preview = {
@@ -45,73 +47,75 @@ const preview = {
   contentTypes: await readExport(previewDirectory, "content_types"),
   entries: await readExport(previewDirectory, "entries"),
   locales: await readExport(previewDirectory, "locales"),
-};
+}
 
 const delivery = {
   assets: await readExport(deliveryDirectory, "assets"),
   contentTypes: await readExport(deliveryDirectory, "content_types"),
   entries: await readExport(deliveryDirectory, "entries"),
   locales: await readExport(deliveryDirectory, "locales"),
-};
+}
 
-for (const [mode, directory] of [
-  ["preview", previewDirectory],
-  ["delivery", deliveryDirectory],
-]) {
-  const target = join(archiveDirectory, mode);
-  await mkdir(target, { recursive: true });
+for (
+  const [mode, directory] of [
+    ["preview", previewDirectory],
+    ["delivery", deliveryDirectory],
+  ]
+) {
+  const target = join(archiveDirectory, mode)
+  await mkdir(target, { recursive: true })
   for (const name of ["assets", "content_types", "entries", "locales"]) {
     await copyFile(
       join(directory, `${name}.json`),
       join(target, `${name}.json`),
-    );
+    )
   }
 }
 
 const publishedEntryIds = new Set(
   delivery.entries.items.map((item) => item.sys.id),
-);
+)
 const publishedAssetIds = new Set(
   delivery.assets.items.map((item) => item.sys.id),
-);
+)
 const entriesById = new Map(
   preview.entries.items.map((item) => [item.sys.id, item]),
-);
+)
 const assetsById = new Map(
   preview.assets.items.map((item) => [item.sys.id, item]),
-);
+)
 
 function field(item, name) {
-  return item.fields[name]?.[LOCALE];
+  return item.fields[name]?.[LOCALE]
 }
 
 function entryType(item) {
-  return item.sys.contentType.sys.id;
+  return item.sys.contentType.sys.id
 }
 
 function linkId(value) {
-  return value?.sys?.id ?? null;
+  return value?.sys?.id ?? null
 }
 
 function safeFilename(asset) {
-  const file = field(asset, "file");
-  const original = file?.fileName || basename(file?.url || "") || asset.sys.id;
-  const extension = extname(original).toLowerCase();
+  const file = field(asset, "file")
+  const original = file?.fileName || basename(file?.url || "") || asset.sys.id
+  const extension = extname(original).toLowerCase()
   const stem = basename(original, extension)
     .normalize("NFKD")
     .replaceAll(/[^\x00-\x7F]/g, "")
     .replaceAll(/[^A-Za-z0-9._-]+/g, "-")
     .replaceAll(/^-+|-+$/g, "")
-    .slice(0, 120);
-  return `${stem || "asset"}${extension}`;
+    .slice(0, 120)
+  return `${stem || "asset"}${extension}`
 }
 
 function localAsset(asset) {
   if (!asset) {
-    return null;
+    return null
   }
 
-  const file = field(asset, "file");
+  const file = field(asset, "file")
   if (!file) {
     return {
       id: asset.sys.id,
@@ -120,10 +124,10 @@ function localAsset(asset) {
       description: correctImportedContent(field(asset, "description") || ""),
       published: publishedAssetIds.has(asset.sys.id),
       sourceUrl: null,
-    };
+    }
   }
 
-  const filename = safeFilename(asset);
+  const filename = safeFilename(asset)
   return {
     id: asset.sys.id,
     path: `/content/assets/${asset.sys.id}/${filename}`,
@@ -136,69 +140,69 @@ function localAsset(asset) {
     height: file.details?.image?.height ?? null,
     published: publishedAssetIds.has(asset.sys.id),
     sourceUrl: file.url ? `https:${file.url}` : null,
-  };
+  }
 }
 
 const assetManifest = preview.assets.items
   .map(localAsset)
-  .sort((left, right) => left.id.localeCompare(right.id));
+  .sort((left, right) => left.id.localeCompare(right.id))
 
-await writeJson(join(archiveDirectory, "asset-manifest.json"), assetManifest);
+await writeJson(join(archiveDirectory, "asset-manifest.json"), assetManifest)
 
-let completedAssets = 0;
+let completedAssets = 0
 const downloadableAssets = assetManifest.filter(
   (asset) => asset.sourceUrl && asset.path,
-);
+)
 
 await mapConcurrent(downloadableAssets, 8, async (asset) => {
-  const target = join(SITE_DIRECTORY, "public", asset.path);
-  await mkdir(join(target, ".."), { recursive: true });
+  const target = join(SITE_DIRECTORY, "public", asset.path)
+  await mkdir(join(target, ".."), { recursive: true })
 
-  let existingSize = null;
+  let existingSize = null
   try {
-    existingSize = (await stat(target)).size;
+    existingSize = (await stat(target)).size
   } catch {
     // The file has not been downloaded yet.
   }
 
   if (existingSize !== asset.size) {
-    const response = await fetch(asset.sourceUrl);
+    const response = await fetch(asset.sourceUrl)
     if (!response.ok) {
       throw new Error(
         `Failed to download asset ${asset.id}: ${response.status} ${response.statusText}`,
-      );
+      )
     }
-    const bytes = new Uint8Array(await response.arrayBuffer());
+    const bytes = new Uint8Array(await response.arrayBuffer())
     if (asset.size !== null && bytes.byteLength !== asset.size) {
       throw new Error(
         `Asset ${asset.id} size mismatch: expected ${asset.size}, received ${bytes.byteLength}`,
-      );
+      )
     }
-    await writeFile(target, bytes);
+    await writeFile(target, bytes)
   }
 
-  completedAssets += 1;
+  completedAssets += 1
   if (
-    completedAssets % 25 === 0 ||
-    completedAssets === downloadableAssets.length
+    completedAssets % 25 === 0
+    || completedAssets === downloadableAssets.length
   ) {
-    console.log(`assets: ${completedAssets}/${downloadableAssets.length}`);
+    console.log(`assets: ${completedAssets}/${downloadableAssets.length}`)
   }
-});
+})
 
-const assetById = new Map(assetManifest.map((asset) => [asset.id, asset]));
+const assetById = new Map(assetManifest.map((asset) => [asset.id, asset]))
 
 function assetFromLink(value) {
-  const asset = assetById.get(linkId(value));
+  const asset = assetById.get(linkId(value))
   if (!asset) {
-    return null;
+    return null
   }
-  const { sourceUrl: _sourceUrl, ...local } = asset;
-  return local;
+  const { sourceUrl: _sourceUrl, ...local } = asset
+  return local
 }
 
 function entryFromLink(value) {
-  return entriesById.get(linkId(value)) ?? null;
+  return entriesById.get(linkId(value)) ?? null
 }
 
 function escapeHtml(value) {
@@ -206,48 +210,48 @@ function escapeHtml(value) {
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
+    .replaceAll("\"", "&quot;")
 }
 
 function correctImportedContent(value) {
   return String(value)
     .replaceAll(/Incentiv.es/g, "Incentives")
-    .replaceAll(/re-exc.te/g, "re-execute");
+    .replaceAll(/re-exc.te/g, "re-execute")
 }
 
 function renderText(node, { accentBold = false } = {}) {
   let html = escapeHtml(correctImportedContent(node.value || "")).replaceAll(
     "\n",
     "<br>",
-  );
+  )
   for (const mark of node.marks || []) {
     switch (mark.type) {
       case "bold":
         html = accentBold
           ? `<span class="text-accent-500">${html}</span>`
-          : `<strong>${html}</strong>`;
-        break;
+          : `<strong>${html}</strong>`
+        break
       case "italic":
-        html = `<em>${html}</em>`;
-        break;
+        html = `<em>${html}</em>`
+        break
       case "underline":
-        html = `<u>${html}</u>`;
-        break;
+        html = `<u>${html}</u>`
+        break
       case "strikethrough":
-        html = `<s>${html}</s>`;
-        break;
+        html = `<s>${html}</s>`
+        break
       case "code":
-        html = `<code>${html}</code>`;
-        break;
+        html = `<code>${html}</code>`
+        break
     }
   }
-  return html;
+  return html
 }
 
 function renderChildren(node, options) {
   return (node.content || [])
     .map((child) => renderNode(child, options))
-    .join("");
+    .join("")
 }
 
 function renderNode(node, options = {}) {
@@ -255,67 +259,69 @@ function renderNode(node, options = {}) {
     case "document":
       return (node.content || [])
         .map((child) => renderNode(child, options))
-        .join("\n");
+        .join("\n")
     case "text":
-      return renderText(node, options);
+      return renderText(node, options)
     case "paragraph": {
-      const className = options.terms ? ' class="mb-4 text-justify"' : "";
-      return `<p${className}>${renderChildren(node, options)}</p>`;
+      const className = options.terms ? " class=\"mb-4 text-justify\"" : ""
+      return `<p${className}>${renderChildren(node, options)}</p>`
     }
     case "heading-1": {
-      const className = options.terms ? ' class="text-xl mt-4 mb-4"' : "";
-      return `<h1${className}>${renderChildren(node, options)}</h1>`;
+      const className = options.terms ? " class=\"text-xl mt-4 mb-4\"" : ""
+      return `<h1${className}>${renderChildren(node, options)}</h1>`
     }
     case "heading-2": {
       const className = options.terms
-        ? ' class="text-lg mt-3 mb-3 font-bold"'
-        : "";
-      return `<h2${className}>${renderChildren(node, options)}</h2>`;
+        ? " class=\"text-lg mt-3 mb-3 font-bold\""
+        : ""
+      return `<h2${className}>${renderChildren(node, options)}</h2>`
     }
     case "heading-3":
-      return `<h3>${renderChildren(node, options)}</h3>`;
+      return `<h3>${renderChildren(node, options)}</h3>`
     case "heading-4":
-      return `<h4>${renderChildren(node, options)}</h4>`;
+      return `<h4>${renderChildren(node, options)}</h4>`
     case "heading-5":
-      return `<h5>${renderChildren(node, options)}</h5>`;
+      return `<h5>${renderChildren(node, options)}</h5>`
     case "heading-6":
-      return `<h6>${renderChildren(node, options)}</h6>`;
+      return `<h6>${renderChildren(node, options)}</h6>`
     case "unordered-list":
-      return `<ul>${renderChildren(node, options)}</ul>`;
+      return `<ul>${renderChildren(node, options)}</ul>`
     case "ordered-list":
-      return `<ol>${renderChildren(node, options)}</ol>`;
+      return `<ol>${renderChildren(node, options)}</ol>`
     case "list-item":
-      return `<li>${renderChildren(node, options)}</li>`;
+      return `<li>${renderChildren(node, options)}</li>`
     case "blockquote":
-      return `<blockquote>${renderChildren(node, options)}</blockquote>`;
+      return `<blockquote>${renderChildren(node, options)}</blockquote>`
     case "hr":
-      return "<hr>";
+      return "<hr>"
     case "hyperlink":
-      return `<a href="${escapeHtml(node.data?.uri || "")}">${renderChildren(
-        node,
-        options,
-      )}</a>`;
+      return `<a href="${escapeHtml(node.data?.uri || "")}">${
+        renderChildren(
+          node,
+          options,
+        )
+      }</a>`
     case "embedded-asset-block": {
-      const asset = assetById.get(node.data?.target?.sys?.id);
+      const asset = assetById.get(node.data?.target?.sys?.id)
       if (!asset?.path) {
-        return "";
+        return ""
       }
-      const alt = asset.description || asset.title || asset.filename;
-      return `<img src="${asset.path}" alt="${escapeHtml(alt)}">`;
+      const alt = asset.description || asset.title || asset.filename
+      return `<img src="${asset.path}" alt="${escapeHtml(alt)}">`
     }
     default:
-      return renderChildren(node, options);
+      return renderChildren(node, options)
   }
 }
 
 function renderTitle(document) {
   return (document?.content || [])
     .map((block) => renderChildren(block, { accentBold: true }))
-    .join("<br>");
+    .join("<br>")
 }
 
 function pageRichText(document) {
-  return renderNode(document, { accentBold: true });
+  return renderNode(document, { accentBold: true })
 }
 
 function sourceMetadata(item) {
@@ -326,58 +332,60 @@ function sourceMetadata(item) {
     firstPublishedAt: item.sys.firstPublishedAt ?? null,
     publishedAt: item.sys.publishedAt ?? null,
     published: publishedEntryIds.has(item.sys.id),
-  };
+  }
 }
 
 const landingEntry = preview.entries.items.find(
   (item) => entryType(item) === "landing",
-);
+)
 const learnEntry = preview.entries.items.find(
   (item) => entryType(item) === "learn",
-);
+)
 
 if (!landingEntry || !learnEntry) {
   throw new Error(
     "The Contentful export is missing the landing or learn entry",
-  );
+  )
 }
 
 const landing = {
   ...sourceMetadata(landingEntry),
   entry: field(landingEntry, "entry") || "",
-};
+}
 for (const prefix of ["first", "second", "third", "fourth"]) {
   landing[`${prefix}TitleHtml`] = renderTitle(
     field(landingEntry, `${prefix}Title`),
-  );
+  )
   landing[`${prefix}TextHtml`] = pageRichText(
     field(landingEntry, `${prefix}Text`),
-  );
+  )
 }
-await writeJson(join(dataDirectory, "landing.json"), landing);
+await writeJson(join(dataDirectory, "landing.json"), landing)
 
 const learn = {
   ...sourceMetadata(learnEntry),
   entryTitle: field(learnEntry, "entryTitle") || "",
-};
-for (const prefix of [
-  "cover",
-  "first",
-  "second",
-  "third",
-  "fourth",
-  "fifth",
-  "sixth",
-  "seventh",
-  "eighth",
-  "ninth",
-]) {
+}
+for (
+  const prefix of [
+    "cover",
+    "first",
+    "second",
+    "third",
+    "fourth",
+    "fifth",
+    "sixth",
+    "seventh",
+    "eighth",
+    "ninth",
+  ]
+) {
   learn[`${prefix}TitleHtml`] = renderTitle(
     field(learnEntry, `${prefix}Title`),
-  );
-  learn[`${prefix}TextHtml`] = pageRichText(field(learnEntry, `${prefix}Text`));
+  )
+  learn[`${prefix}TextHtml`] = pageRichText(field(learnEntry, `${prefix}Text`))
 }
-await writeJson(join(dataDirectory, "learn.json"), learn);
+await writeJson(join(dataDirectory, "learn.json"), learn)
 
 const ecosystem = preview.entries.items
   .filter((item) => entryType(item) === "ecosystem")
@@ -389,20 +397,20 @@ const ecosystem = preview.entries.items
     background: assetFromLink(field(item, "background")),
     categories: (field(item, "category") || [])
       .map((link) => {
-        const category = entryFromLink(link);
+        const category = entryFromLink(link)
         return category
           ? {
-              id: category.sys.id,
-              category: field(category, "category") || "",
-              textColor: field(category, "textColor") || "#000000",
-              bgColor: field(category, "bgColor") || "#ffffff",
-            }
-          : null;
+            id: category.sys.id,
+            category: field(category, "category") || "",
+            textColor: field(category, "textColor") || "#000000",
+            bgColor: field(category, "bgColor") || "#ffffff",
+          }
+          : null
       })
       .filter(Boolean),
   }))
-  .sort((left, right) => left.name.localeCompare(right.name));
-await writeJson(join(dataDirectory, "ecosystem.json"), ecosystem);
+  .sort((left, right) => left.name.localeCompare(right.name))
+await writeJson(join(dataDirectory, "ecosystem.json"), ecosystem)
 
 const team = preview.entries.items
   .filter((item) => entryType(item) === "team")
@@ -416,11 +424,11 @@ const team = preview.entries.items
     twitterPicture: assetFromLink(field(item, "twitterPicture")),
   }))
   .sort((left, right) => {
-    const leftPosition = left.position ?? Number.POSITIVE_INFINITY;
-    const rightPosition = right.position ?? Number.POSITIVE_INFINITY;
-    return leftPosition - rightPosition || left.name.localeCompare(right.name);
-  });
-await writeJson(join(dataDirectory, "team.json"), team);
+    const leftPosition = left.position ?? Number.POSITIVE_INFINITY
+    const rightPosition = right.position ?? Number.POSITIVE_INFINITY
+    return leftPosition - rightPosition || left.name.localeCompare(right.name)
+  })
+await writeJson(join(dataDirectory, "team.json"), team)
 
 const roadmap = {
   sections: preview.entries.items
@@ -460,8 +468,8 @@ const roadmap = {
       completeIcon: assetFromLink(field(item, "completeIcon")),
       slug: field(item, "slug") || "",
     })),
-};
-await writeJson(join(dataDirectory, "roadmap.json"), roadmap);
+}
+await writeJson(join(dataDirectory, "roadmap.json"), roadmap)
 
 const termsSlugs = new Map([
   ["5ZQLR5qjQqRRr62puERKbQ", "privacy-policy"],
@@ -469,13 +477,15 @@ const termsSlugs = new Map([
   ["43sR1iKG6dHDFNXrVlKIF3", "airdrop-terms-and-conditions"],
   ["4BgHT0VqZ0kPyf4HVQ1Jhw", "auro-privacy-policy"],
   ["3mXKRCugy1uUhBEjLucDWp", "auro-terms-of-service"],
-]);
+])
 
-for (const item of preview.entries.items.filter(
-  (item) => entryType(item) === "terms",
-)) {
-  const slug = termsSlugs.get(item.sys.id) || item.sys.id;
-  const metadata = sourceMetadata(item);
+for (
+  const item of preview.entries.items.filter(
+    (item) => entryType(item) === "terms",
+  )
+) {
+  const slug = termsSlugs.get(item.sys.id) || item.sys.id
+  const metadata = sourceMetadata(item)
   const frontmatter = [
     "---",
     `title: ${yamlString(field(item, "title") || "")}`,
@@ -485,24 +495,26 @@ for (const item of preview.entries.items.filter(
     `updatedAt: ${yamlString(metadata.updatedAt)}`,
     "---",
     "",
-  ].join("\n");
-  const body = renderNode(field(item, "copy"), { terms: true });
+  ].join("\n")
+  const body = renderNode(field(item, "copy"), { terms: true })
   await writeFile(
     join(legalDirectory, `${slug}.md`),
     `${frontmatter}${body}\n`,
-  );
+  )
 }
 
-for (const item of preview.entries.items.filter(
-  (item) => entryType(item) === "blog",
-)) {
-  const slug = field(item, "slug");
+for (
+  const item of preview.entries.items.filter(
+    (item) => entryType(item) === "blog",
+  )
+) {
+  const slug = field(item, "slug")
   if (!slug) {
-    throw new Error(`Blog entry ${item.sys.id} has no slug`);
+    throw new Error(`Blog entry ${item.sys.id} has no slug`)
   }
 
-  const metadata = sourceMetadata(item);
-  const cover = assetFromLink(field(item, "cover"));
+  const metadata = sourceMetadata(item)
+  const cover = assetFromLink(field(item, "cover"))
   const frontmatter = [
     "---",
     `title: ${yamlString(field(item, "title") || "")}`,
@@ -518,9 +530,9 @@ for (const item of preview.entries.items.filter(
     `updatedAt: ${yamlString(metadata.updatedAt)}`,
     "---",
     "",
-  ].join("\n");
-  const body = renderNode(field(item, "content"));
-  await writeFile(join(blogDirectory, `${slug}.md`), `${frontmatter}${body}\n`);
+  ].join("\n")
+  const body = renderNode(field(item, "content"))
+  await writeFile(join(blogDirectory, `${slug}.md`), `${frontmatter}${body}\n`)
 }
 
 await writeJson(join(archiveDirectory, "manifest.json"), {
@@ -542,31 +554,35 @@ await writeJson(join(archiveDirectory, "manifest.json"), {
   missingAssetFiles: assetManifest
     .filter((asset) => !asset.path)
     .map((asset) => asset.id),
-});
+})
 
 console.log(
-  `generated ${relative(REPOSITORY_ROOT, blogDirectory)} (${preview.entries.items.filter((item) => entryType(item) === "blog").length} posts)`,
-);
+  `generated ${relative(REPOSITORY_ROOT, blogDirectory)} (${
+    preview.entries.items.filter((item) => entryType(item) === "blog").length
+  } posts)`,
+)
 console.log(
-  `generated ${relative(REPOSITORY_ROOT, legalDirectory)} (${preview.entries.items.filter((item) => entryType(item) === "terms").length} documents)`,
-);
+  `generated ${relative(REPOSITORY_ROOT, legalDirectory)} (${
+    preview.entries.items.filter((item) => entryType(item) === "terms").length
+  } documents)`,
+)
 
 function yamlString(value) {
-  return JSON.stringify(String(value));
+  return JSON.stringify(String(value))
 }
 
 async function writeJson(path, value) {
-  await writeFile(path, `${JSON.stringify(value, null, 2)}\n`);
+  await writeFile(path, `${JSON.stringify(value, null, 2)}\n`)
 }
 
 async function mapConcurrent(items, concurrency, operation) {
-  let index = 0;
+  let index = 0
   async function worker() {
     while (index < items.length) {
-      const current = items[index];
-      index += 1;
-      await operation(current);
+      const current = items[index]
+      index += 1
+      await operation(current)
     }
   }
-  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  await Promise.all(Array.from({ length: concurrency }, () => worker()))
 }
