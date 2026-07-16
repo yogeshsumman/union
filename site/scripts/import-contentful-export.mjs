@@ -116,8 +116,8 @@ function localAsset(asset) {
     return {
       id: asset.sys.id,
       path: null,
-      title: field(asset, "title") || "",
-      description: field(asset, "description") || "",
+      title: correctImportedContent(field(asset, "title") || ""),
+      description: correctImportedContent(field(asset, "description") || ""),
       published: publishedAssetIds.has(asset.sys.id),
       sourceUrl: null,
     };
@@ -127,8 +127,8 @@ function localAsset(asset) {
   return {
     id: asset.sys.id,
     path: `/content/assets/${asset.sys.id}/${filename}`,
-    title: field(asset, "title") || "",
-    description: field(asset, "description") || "",
+    title: correctImportedContent(field(asset, "title") || ""),
+    description: correctImportedContent(field(asset, "description") || ""),
     filename,
     contentType: file.contentType,
     size: file.details?.size ?? null,
@@ -209,8 +209,17 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function correctImportedContent(value) {
+  return String(value)
+    .replaceAll(/Incentiv.es/g, "Incentives")
+    .replaceAll(/re-exc.te/g, "re-execute");
+}
+
 function renderText(node, { accentBold = false } = {}) {
-  let html = escapeHtml(node.value || "").replaceAll("\n", "<br>");
+  let html = escapeHtml(correctImportedContent(node.value || "")).replaceAll(
+    "\n",
+    "<br>",
+  );
   for (const mark of node.marks || []) {
     switch (mark.type) {
       case "bold":
