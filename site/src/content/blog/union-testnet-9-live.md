@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Testnet 9 is Live" date: "2025-02-14" author: "Stephen Gee" description: "Testnet 9, the final Union testnet before mainnet, is live and ready for public testing. Battle test the network to ensure Union is ready for mainnet." cover: "/content/assets/CjNPQhDP5uMuR15eL9mdW/TESTNET9-BLOG.png" coverAlt: "Graphic that says "Testnet 9 is here."" hidden: false published: true sourceId: "3xqA7tMMdzpHF06J2dwszT" createdAt: "2025-01-24T03:31:38.904Z" updatedAt: "2025-02-18T20:00:52.876Z"
-
+---
+title: "Union Testnet 9 is Live"
+date: "2025-02-14"
+author: "Stephen Gee"
+description: "Testnet 9, the final Union testnet before mainnet, is live and ready for public testing. Battle test the network to ensure Union is ready for mainnet."
+cover: "/content/assets/CjNPQhDP5uMuR15eL9mdW/TESTNET9-BLOG.png"
+coverAlt: "Graphic that says \"Testnet 9 is here.\""
+hidden: false
+published: true
+sourceId: "3xqA7tMMdzpHF06J2dwszT"
+createdAt: "2025-01-24T03:31:38.904Z"
+updatedAt: "2025-02-18T20:00:52.876Z"
+---
 <p>The wait is over—Testnet 9, the final Union testnet before mainnet, is live and ready for public testing.</p>
 <ul><li><p>Go to <a href="https://app.union.build/">app.union.build</a>.</p></li><li><p>Connect your wallets (Cosmos and EVM wallets supported).</p></li><li><p>Start transferring assets.</p></li></ul>
 <p>Testnet 9 is a major opportunity for Union supporters to contribute to the Union network. By battle testing the network, the community will help ensure that Union is ready for showtime. It’s time to take advantage of the <a href="https://dashboard.union.build/">dashboard</a> and test—send a lot of transfers, send all kinds of assets, and generally do whatever you can to break the testnet. This is the time.</p>

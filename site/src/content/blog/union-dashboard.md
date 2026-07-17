@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Dashboard – Complete Missions, Build the Union" date: "2025-01-21" author: "Stephen Gee" description: "Complete missions, unlock achievements, earn rewards, and compete on the leaderboard to grow the Union ecosystem." cover: "/content/assets/6hr2zWWvKz3acUId0wb3qT/DASHBOARD-BLOG.png" coverAlt: "A picture of the Union Dashboard, with a user profile behind and Testnet 9 in the bottom left." hidden: false published: true sourceId: "3oip6bBCxONZR1hFJUJF64" createdAt: "2025-01-13T22:49:07.165Z" updatedAt: "2025-01-23T15:03:04.919Z"
-
+---
+title: "Union Dashboard – Complete Missions, Build the Union"
+date: "2025-01-21"
+author: "Stephen Gee"
+description: "Complete missions, unlock achievements, earn rewards, and compete on the leaderboard to grow the Union ecosystem."
+cover: "/content/assets/6hr2zWWvKz3acUId0wb3qT/DASHBOARD-BLOG.png"
+coverAlt: "A picture of the Union Dashboard, with a user profile behind and Testnet 9 in the bottom left."
+hidden: false
+published: true
+sourceId: "3oip6bBCxONZR1hFJUJF64"
+createdAt: "2025-01-13T22:49:07.165Z"
+updatedAt: "2025-01-23T15:03:04.919Z"
+---
 <p>Introducing <a href="https://dashboard.union.build/">Union Dashboard</a>, a custom platform aimed at unifying Union’s ecosystem and providing the community with ways to break the testnet, gain notoriety on mainnet, and be active on Union socials.</p>
 <p>This dashboard, which is 100% created by cracked Union developers, launches with questing functionality. By completing missions and achievements, users will gain XP, rank up, and can earn rewards such as Discord roles, achievement cards, and potentially even a whitelist spot for the upcoming Wandering Whale Sharks mint.</p>
 <ul><li><p>Go to <a href="https://dashboard.union.build/">dashboard.union.build</a>.</p></li><li><p>Connect your 𝕏/Twitter, Discord, and GitHub accounts.</p></li><li><p>Begin completing missions, unlocking achievements, and earning rewards for growing the Union ecosystem.</p></li></ul>

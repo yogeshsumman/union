@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Partners with Scroll" date: "2024-03-07" author: "Union" description: "Union is partnering with Scroll to transfer assets and messages from any IBC-enabled chain into Scroll through its fully trustless, decentralized, hyper-efficient zkIBC bridge." cover: "/content/assets/46ZcVZb9kFTt3zACeP5Ikb/Scroll-Partner-Blog.png" coverAlt: "Image of Union and Scroll logos as a partnership announcement." hidden: false published: true sourceId: "3xCeYCXErVFxyfxmBZnYh" createdAt: "2024-07-23T21:08:45.324Z" updatedAt: "2024-07-24T04:31:14.073Z"
-
+---
+title: "Union Partners with Scroll"
+date: "2024-03-07"
+author: "Union"
+description: "Union is partnering with Scroll to transfer assets and messages from any IBC-enabled chain into Scroll through its fully trustless, decentralized, hyper-efficient zkIBC bridge."
+cover: "/content/assets/46ZcVZb9kFTt3zACeP5Ikb/Scroll-Partner-Blog.png"
+coverAlt: "Image of Union and Scroll logos as a partnership announcement."
+hidden: false
+published: true
+sourceId: "3xCeYCXErVFxyfxmBZnYh"
+createdAt: "2024-07-23T21:08:45.324Z"
+updatedAt: "2024-07-24T04:31:14.073Z"
+---
 <p><a href="https://scroll.io/">Scroll</a>, the zkEVM Layer 2 network, emerges as a beacon of innovation in the blockchain landscape by offering unparalleled scalability, fast transaction confirmations, and robust, trustless privacy. Its zero-knowledge EVM infrastructure allows for greater accessibility, improved responsiveness, and support for more users at once than Ethereum alone.</p>
 <p>In tandem with Scroll’s rapid growth in recent years, IBC’s resilient cross-chain ecosystem has also seen significant momentum over the past couple of months with a TVL surging over $50B across IBC-enabled rollups and chains.</p>
 <p>To connect these two ecosystems and enable liquidity flow, a decentralized ZK bridge solution is needed more than ever. In response, research teams at Union and Scroll have collaborated on a solution to integrate Union’s ZK proofs for IBC into Scroll. This integration facilitates seamless bridging of funds and data from any IBC-enabled chain to applications built on Scroll, ensuring trustless, efficient, and low-latency interoperability.</p>

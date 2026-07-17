@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Crosschain Governance by Union – Stake & Govern Across Any Chain" date: "2025-06-18" author: "Stephen Gee" description: "Union's truly crosschain governance system will enable staking & delegation across connected chains, starting with Ethereum." cover: "/content/assets/Qr4KaQXiKYW6WysmbAz5O/CROSSCHAIN-GOVERNANCE.png" coverAlt: "Graphic with the word Crosschain Governance: Stake & Govern Across Any Chain, with logos of Union-connected EVM chains and the Union logo." hidden: false published: true sourceId: "39LawbD7xRpQyf8qwBb26T" createdAt: "2025-06-18T18:05:14.591Z" updatedAt: "2025-06-19T15:27:47.424Z"
-
+---
+title: "Crosschain Governance by Union – Stake & Govern Across Any Chain"
+date: "2025-06-18"
+author: "Stephen Gee"
+description: "Union's truly crosschain governance system will enable staking & delegation across connected chains, starting with Ethereum."
+cover: "/content/assets/Qr4KaQXiKYW6WysmbAz5O/CROSSCHAIN-GOVERNANCE.png"
+coverAlt: "Graphic with the word Crosschain Governance: Stake & Govern Across Any Chain, with logos of Union-connected EVM chains and the Union logo."
+hidden: false
+published: true
+sourceId: "39LawbD7xRpQyf8qwBb26T"
+createdAt: "2025-06-18T18:05:14.591Z"
+updatedAt: "2025-06-19T15:27:47.424Z"
+---
 <p>When Union launches its public mainnet, it will go live with a Proof of Stake governance system to manage critical decision making for the ecosystem. The network will be based on the Cosmos framework, yet as a project integrating with every ecosystem, Union will do things differently.</p>
 <p>Union is building toward a truly crosschain future, so it wouldn’t make sense to confine governance to a single chain. That’s why it won’t be.</p>
 <p>Introducing <strong>Crosschain Governance</strong>, a custom module that enables Union tokens on other chains to be staked and delegated to the Union chain <em>without</em> bridging. This module will expand access to and support for Union staking and governance—and other Cosmos-based blockchains will be able to utilize it in the future as well.</p>

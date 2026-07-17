@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union’s New Look" date: "2025-11-14" author: "Tucker Baumgartner⁩" description: "Introducing Union’s New Look: refreshed brand identity, updated logo, and expanded visual system for the Union community." cover: "/content/assets/5fGtlr6aooWWQACkw2oZtF/TITLE-CARD.png" coverAlt: "Union - VERSION 3.2" hidden: false published: true sourceId: "6OnGPOH7LrndEoH1jNVKZq" createdAt: "2025-11-14T15:14:40.906Z" updatedAt: "2025-11-24T15:18:24.012Z"
-
+---
+title: "Union’s New Look"
+date: "2025-11-14"
+author: "Tucker Baumgartner⁩"
+description: "Introducing Union’s New Look: refreshed brand identity, updated logo, and expanded visual system for the Union community."
+cover: "/content/assets/5fGtlr6aooWWQACkw2oZtF/TITLE-CARD.png"
+coverAlt: "Union - VERSION 3.2"
+hidden: false
+published: true
+sourceId: "6OnGPOH7LrndEoH1jNVKZq"
+createdAt: "2025-11-14T15:14:40.906Z"
+updatedAt: "2025-11-24T15:18:24.012Z"
+---
 <p></p>
 <p>Over the last few months, Union has been shipping and growing as a project in ways our team couldn’t have envisioned even just six months ago. With our launch of mainnet, expansions into Southeast Asian markets, as well as the announcements of Uname and Auro, we felt it was time for a fresh coat of paint for the Union brand. After a few months in development, we’re excited to share the vision for Union’s future, one that is bright, bold, and rad af.</p>
 <h2>What’s New?</h2>

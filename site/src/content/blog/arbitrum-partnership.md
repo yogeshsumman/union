@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Adds Support for Arbitrum, Brings ZK Interop to Orbit Chains" date: "2024-07-09" author: "0xkaiserkarel" description: "Union’s two-way interoperability solution will unlock liquidity flows across Ethereum L2s, EVM-compatible L1s, and Cosmos/IBC chains." cover: "/content/assets/2K7HQypj6kLyfMsAcuBzU5/Arbitrum-Partner-Blog.png" coverAlt: "Union and Arbitrum logos for the integration announcement." hidden: false published: true sourceId: "GItWhFE6diF4GlumzUE8p" createdAt: "2024-07-18T17:22:14.926Z" updatedAt: "2024-07-25T15:39:19.115Z"
-
+---
+title: "Union Adds Support for Arbitrum, Brings ZK Interop to Orbit Chains"
+date: "2024-07-09"
+author: "0xkaiserkarel"
+description: "Union’s two-way interoperability solution will unlock liquidity flows across Ethereum L2s, EVM-compatible L1s, and Cosmos/IBC chains."
+cover: "/content/assets/2K7HQypj6kLyfMsAcuBzU5/Arbitrum-Partner-Blog.png"
+coverAlt: "Union and Arbitrum logos for the integration announcement."
+hidden: false
+published: true
+sourceId: "GItWhFE6diF4GlumzUE8p"
+createdAt: "2024-07-18T17:22:14.926Z"
+updatedAt: "2024-07-25T15:39:19.115Z"
+---
 <p>Union is integrating with <a href="https://arbitrum.io/">Arbitrum</a>, to facilitate message passing and asset transfers between the Arbitrum ecosystem and other networks. This strategic integration enriches Arbitrum and Orbit chains by enabling seamless interoperability with not only IBC chains, but also with other L2s, such as Scroll, which already have an integration with Union.</p>
 <p>The integration aims to enhance Arbitrum’s Orbit ecosystem by providing direct access to a broad network of users and assets, promoting increased liquidity and improved user experiences across chains. With Union, assets and their staked derivatives will be bridged more efficiently for Orbit chains and users.</p>
 <h2>Addressing Liquidity Fragmentation</h2>

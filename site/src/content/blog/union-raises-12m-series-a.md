@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Raises $12M in Series A to Fight Fragmentation Across EVM and Non-EVM Chains" date: "2024-12-03" author: "Union Labs" description: "Capital raised is earmarked for core team expansion, partner integrations, and ecosystem growth. Union’s Series A round brings the project’s funds raised to a total of $16M." cover: "/content/assets/19TsQAaPosHNyEWeQbA3q9/Series-A-Blog.png" coverAlt: "Announcement of the Union Labs Series A raise, showing $12M raised." hidden: false published: true sourceId: "5rUF3RCQz0qkF9WVYG6IPc" createdAt: "2024-12-02T18:58:22.558Z" updatedAt: "2024-12-03T21:43:35.510Z"
-
+---
+title: "Union Raises $12M in Series A to Fight Fragmentation Across EVM and Non-EVM Chains"
+date: "2024-12-03"
+author: "Union Labs"
+description: "Capital raised is earmarked for core team expansion, partner integrations, and ecosystem growth. Union’s Series A round brings the project’s funds raised to a total of $16M."
+cover: "/content/assets/19TsQAaPosHNyEWeQbA3q9/Series-A-Blog.png"
+coverAlt: "Announcement of the Union Labs Series A raise, showing $12M raised."
+hidden: false
+published: true
+sourceId: "5rUF3RCQz0qkF9WVYG6IPc"
+createdAt: "2024-12-02T18:58:22.558Z"
+updatedAt: "2024-12-03T21:43:35.510Z"
+---
 <p><strong>DOVER, DE—December 3rd, 2024— </strong><a href="https://union.build/">Union</a>, the cross-chain, zero-knowledge (ZK) settlement layer, has successfully raised $12 million in Series A funding, led by Gumi Cryptos Capital and Longhash Ventures, bringing its total raised capital to $16m. The raise also saw participation from Borderless Capital in addition to other VCs and was backed by founders of Polygon, Movement and Berachain, among others. The raise will enable Union to continue powering the secure, trustless, and permissionless transfer of assets across Web3.</p>
 <p><a href="https://twitter.com/0xkaiserkarel">Karel Kubat</a>, Founder of Union, commented:</p>
 <blockquote><p><em>“I couldn’t be more excited about this news; it calls for a big thank you to Union’s partners, supporters, and users. This raise, which came just under a year after closing our Seed round, is reflective of our team’s ongoing dedication to reducing fragmentation by bringing secure, sovereign, and seamless interoperability to Web3. Union, like its connections, is unstoppable.”</em></p></blockquote>

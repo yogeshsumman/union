@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Set to Become a Bitcoin Supercharged Network (BSN), Receives 25M BABY to Support BTCfi" date: "2025-07-17" author: "Union" description: "The Union network will accelerate BTCfi adoption and be secured by crypto’s most decentralized and time-tested asset, Bitcoin." cover: "/content/assets/1h6QgImjv8WVypZbwSOg2G/BSN.png" coverAlt: "Graphic with the words "Union to become a BSN (Bitcoin Supercharged Network" with the Babylon logo as well." hidden: false published: true sourceId: "30zV3zncrysaB429dJBT1B" createdAt: "2025-07-17T02:58:27.754Z" updatedAt: "2025-07-17T15:30:45.858Z"
-
+---
+title: "Union Set to Become a Bitcoin Supercharged Network (BSN), Receives 25M BABY to Support BTCfi"
+date: "2025-07-17"
+author: "Union"
+description: "The Union network will accelerate BTCfi adoption and be secured by crypto’s most decentralized and time-tested asset, Bitcoin."
+cover: "/content/assets/1h6QgImjv8WVypZbwSOg2G/BSN.png"
+coverAlt: "Graphic with the words \"Union to become a BSN (Bitcoin Supercharged Network\" with the Babylon logo as well."
+hidden: false
+published: true
+sourceId: "30zV3zncrysaB429dJBT1B"
+createdAt: "2025-07-17T02:58:27.754Z"
+updatedAt: "2025-07-17T15:30:45.858Z"
+---
 <p>Union, the key interoperability layer powering the BTCfi flywheel, is embarking on a landmark integration with Babylon Genesis: Union will become a <strong>Bitcoin Supercharged Network (BSN)</strong>, and <strong>receive 25 million BABY tokens</strong> to accelerate the Bitcoin-secured future of decentralized finance.</p>
 <p>With Babylon’s Genesis launch marking the dawn of BTC staking, Union has played a foundational role in routing nearly <strong>98% of all BTC LST volume</strong> into the ecosystem. From enabling canonical transfers between Ethereum, Cosmos, and Bitcoin L2s, to facilitating the BABY airdrop and ongoing bridge operations, Union has been the protocol layer quietly knitting the BTCfi stack together.</p>
 <p>Now, as Union approaches public mainnet, it's committing to becoming a Bitcoin Supercharged Network (BSN), and transforming its PoS blockchain into one secured in part by crypto’s most decentralized and time-tested asset. Union will integrate the Babylon Bitcoin staking protocol, allowing BTC stakers to secure the network while earning rewards.</p>

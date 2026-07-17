@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "We're Whale Sharks Now" date: "2024-09-13" author: "Tucker Baumgartner & Stephen Gee" description: "Union has officially adopted the Whale Shark as its mascot, to symbolize its desire to grow and become the dominant interoperability provider in crypto." cover: "/content/assets/5R0kj4uUHtW9KVH7Efy3AR/Union-Whale-Shark-Blog.png" coverAlt: "Photo of a whale shark with a 0\_\_\_\_\_\_0 symbol in Union blue on its face, and \[We're Whale Sharks Now\] below it." hidden: false published: true sourceId: "1QBkflfexI1cDhaVY1GmSj" createdAt: "2024-09-12T15:22:05.670Z" updatedAt: "2025-10-22T21:45:20.399Z"
-
+---
+title: "We're Whale Sharks Now"
+date: "2024-09-13"
+author: "Tucker Baumgartner & Stephen Gee"
+description: "Union has officially adopted the Whale Shark as its mascot, to symbolize its desire to grow and become the dominant interoperability provider in crypto."
+cover: "/content/assets/5R0kj4uUHtW9KVH7Efy3AR/Union-Whale-Shark-Blog.png"
+coverAlt: "Photo of a whale shark with a 0______0 symbol in Union blue on its face, and [We're Whale Sharks Now] below it."
+hidden: false
+published: true
+sourceId: "1QBkflfexI1cDhaVY1GmSj"
+createdAt: "2024-09-12T15:22:05.670Z"
+updatedAt: "2025-10-22T21:45:20.399Z"
+---
 <p>You may have noticed some weird things going on with the Union <a href="https://x.com/union_build/">Twitter/X</a>, <a href="https://discord.union.build/">Discord</a>, and other channels. Well, today it’s official…</p>
 <p>Union has adopted the Whale Shark as its mascot.</p>
 <p>You probably have questions. Luckily our Head of Design has taken time out of his busy schedule of making memes to answer questions about our new branding.</p>

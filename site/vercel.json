@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/docs/:path*",
-      "destination": "https://docs.union.build/:path*",
-      "permanent": true
-    }
-  ]
-}

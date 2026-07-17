@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Partners with Native to Enable ZK-Bridging for Bitcoin" date: "2024-09-03" author: "Emir Beriker" description: "Union is partnering with Native to develop trust-minimized interoperability for the Bitcoin ecosystem." cover: "/content/assets/5Ok3wtqNb1CzZFSgzdzj8t/Union-X-Native.png" coverAlt: "Announcement graphic with Union and Native logos." hidden: false published: true sourceId: "7M0J87JgUfVds27m8pKJl2" createdAt: "2024-08-31T00:49:18.458Z" updatedAt: "2024-11-08T15:45:04.715Z"
-
+---
+title: "Union Partners with Native to Enable ZK-Bridging for Bitcoin"
+date: "2024-09-03"
+author: "Emir Beriker"
+description: "Union is partnering with Native to develop trust-minimized interoperability for the Bitcoin ecosystem."
+cover: "/content/assets/5Ok3wtqNb1CzZFSgzdzj8t/Union-X-Native.png"
+coverAlt: "Announcement graphic with Union and Native logos."
+hidden: false
+published: true
+sourceId: "7M0J87JgUfVds27m8pKJl2"
+createdAt: "2024-08-31T00:49:18.458Z"
+updatedAt: "2024-11-08T15:45:04.715Z"
+---
 <p>We are excited to announce our strategic partnership with <a href="https://www.gonative.cc/"><u>Native</u></a>, the Zero Trust native Bitcoin Application Platform, to enhance the Bitcoin ecosystem's security and efficiency. This collaboration will focus on developing trust-minimized bridges, enabling users to move assets across various Bitcoin Layer 2 (L2) solutions and the broader multi-chain ecosystem (such as Ethereum and Ethereum L2s) without the need for centralized intermediaries.</p>
 <h3>Unlocking the Potential of Bitcoin</h3>
 <p>Bitcoin, renowned as the world’s most secure and decentralized blockchain, has faced limitations due to its scripting capabilities, which restrict the development of sophisticated DeFi applications and other advanced financial instruments directly on the network. Although emerging Bitcoin L2 solutions aim to solve scalability and programmability issues, securely transferring assets between these solutions remains a challenge.</p>

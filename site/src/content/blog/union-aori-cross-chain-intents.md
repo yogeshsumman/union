@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union and Aori Partner to Accelerate Cross-chain Intents" date: "2024-12-02" author: "Stephen Gee" description: "Union and Aori are bringing high-frequency intent execution to the Union ecosystem. Intents served through the Union network will be directed to Aori for fulfillment." cover: "/content/assets/3Hi2aSaQI51K3C6ik9KG2e/Union-X-Aori-Blog.png" coverAlt: "Blog partnership graphic showing the Union and Aori logos." hidden: false published: true sourceId: "5y69GZCfffo2CpKuSbaHqA" createdAt: "2024-11-27T00:39:18.821Z" updatedAt: "2024-12-02T22:28:30.354Z"
-
+---
+title: "Union and Aori Partner to Accelerate Cross-chain Intents"
+date: "2024-12-02"
+author: "Stephen Gee"
+description: "Union and Aori are bringing high-frequency intent execution to the Union ecosystem. Intents served through the Union network will be directed to Aori for fulfillment."
+cover: "/content/assets/3Hi2aSaQI51K3C6ik9KG2e/Union-X-Aori-Blog.png"
+coverAlt: "Blog partnership graphic showing the Union and Aori logos."
+hidden: false
+published: true
+sourceId: "5y69GZCfffo2CpKuSbaHqA"
+createdAt: "2024-11-27T00:39:18.821Z"
+updatedAt: "2024-12-02T22:28:30.354Z"
+---
 <p>Union is partnering with <a href="https://www.aori.io/">Aori</a> to bring high-frequency intent execution to the Union ecosystem. Intents-based orders served through the Union network will be directed to Aori for fulfillment, where solvers and market makers will compete to give users the fastest, cheapest, and most efficient order fulfillment possible.</p>
 <p>This collaboration will combine Union’s <a href="https://research.union.build/Intents-Bridging-10c79e5af45d80a3a0f8dde7159138af">intents bridging</a> infrastructure with Aori’s network of solvers to vastly improve the user experience of cross-chain order fulfillment.</p>
 <h2>Cross-chain Intents Need High-Frequency Execution</h2>

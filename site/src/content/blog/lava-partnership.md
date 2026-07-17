@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union and Lava Announce Incentivized Public RPC Campaign" date: "2024-04-08" author: "Emir Beriker" description: "The campaign will incentivize participation in the public RPC infrastructure, encouraging community engagement and growth within the Union and wider interoperable ecosystems." cover: "/content/assets/5EgmRpervgxGxBNZwX7OIM/Lava-Partner-Blog.png" coverAlt: "Union x Lava" hidden: false published: true sourceId: "6ndUuhi1v2xh1EDJgBYFsD" createdAt: "2024-07-18T18:01:47.563Z" updatedAt: "2024-07-25T15:37:44.022Z"
-
+---
+title: "Union and Lava Announce Incentivized Public RPC Campaign"
+date: "2024-04-08"
+author: "Emir Beriker"
+description: "The campaign will incentivize participation in the public RPC infrastructure, encouraging community engagement and growth within the Union and wider interoperable ecosystems."
+cover: "/content/assets/5EgmRpervgxGxBNZwX7OIM/Lava-Partner-Blog.png"
+coverAlt: "Union x Lava"
+hidden: false
+published: true
+sourceId: "6ndUuhi1v2xh1EDJgBYFsD"
+createdAt: "2024-07-18T18:01:47.563Z"
+updatedAt: "2024-07-25T15:37:44.022Z"
+---
 <p>Union, the sovereign interoperability layer, has formed a strategic partnership with <a href="https://www.lavanet.xyz/">Lava</a>, the modular access layer for Web3, marked by the announcement of an Incentivized Public Remote Procedure Call (ipRPC) campaign with a rewards pool worth $100K in token rewards. This alliance will also see Lava become the modular RPC and access layer connecting users to Union’s testnet.</p>
 <p>Following Union’s mainnet launch slated for this summer, node operators will have the opportunity to become Union RPC providers through Lava, streamlining the process for developers by consolidating providers into a single access point. Campaign participants stand to receive a share of the rewards pool during the three-month duration starting from the anticipated provisional launch date. Further details regarding the timeline will be announced in Q2.</p>
 <p><a href="https://x.com/0xkaiserkarel">Karel Kubat</a>, Founder and CEO of Union Labs, commented:</p>

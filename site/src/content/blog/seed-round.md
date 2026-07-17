@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Labs raises $4M in Seed Round" date: "2023-11-16" author: "Union Labs" description: "Today, we're thrilled to announce that we've successfully raised $4 million in seed funding to drive our mission of revolutionizing cross-chain infrastructure." cover: "/content/assets/6gSyzUrE9lY7NhETdmKw6p/Seed-Round.png" coverAlt: "A cover graphic for the Union Labs Seed Raise." hidden: false published: true sourceId: "3YzpWgiOUSXtWiMjJESmV4" createdAt: "2024-07-24T04:33:02.616Z" updatedAt: "2024-12-03T21:37:37.676Z"
-
+---
+title: "Union Labs raises $4M in Seed Round"
+date: "2023-11-16"
+author: "Union Labs"
+description: "Today, we're thrilled to announce that we've successfully raised $4 million in seed funding to drive our mission of revolutionizing cross-chain infrastructure."
+cover: "/content/assets/6gSyzUrE9lY7NhETdmKw6p/Seed-Round.png"
+coverAlt: "A cover graphic for the Union Labs Seed Raise."
+hidden: false
+published: true
+sourceId: "3YzpWgiOUSXtWiMjJESmV4"
+createdAt: "2024-07-24T04:33:02.616Z"
+updatedAt: "2024-12-03T21:37:37.676Z"
+---
 <p>Today, we’re thrilled to announce that we’ve successfully raised $4 million in seed funding to drive our mission of revolutionizing cross-chain infrastructure. The funding round was led by Galileo, and joined by Semantic Ventures, Tioga Capital, and Nascent, as well as angels from Chorus One, Quasar, Easy2stake, UDHC, Obol, and Skip Protocol. We’re grateful for their support as we embark on this journey to build the first fully trustless bridge connecting appchains, layer 1, and layer 2 networks.</p>
 <p>This backing cements our commitment to building a trustless interoperable future. We’re excited to have these industry leaders supporting us as we continue to push the boundaries of what’s possible in the cross-chain ecosystem.</p>
 <p>Karel Kubat, our Founder, shares his thoughts on this significant milestone:</p>

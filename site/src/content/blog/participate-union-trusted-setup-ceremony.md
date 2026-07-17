@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Secure Union’s Proving System – Participate in the Trusted Setup Ceremony" date: "2024-10-02" author: "Cor Pruijs & Stephen Gee" description: "The Trusted Setup Ceremony is an opportunity for anyone to contribute to Union, and ensure Union’s ZK-based interoperability is secure and decentralized." cover: "/content/assets/31SSuMN8zbDGZopaHIKlAb/Union-Trusted-Setup-Ceremony-Blog-1.png" coverAlt: "Announcement graphic for the Union Trusted Setup Ceremony." hidden: false published: true sourceId: "4igxoer5KWZhRvmoIOqswa" createdAt: "2024-10-02T14:59:08.942Z" updatedAt: "2024-10-10T21:27:18.086Z"
-
+---
+title: "Secure Union’s Proving System – Participate in the Trusted Setup Ceremony"
+date: "2024-10-02"
+author: "Cor Pruijs & Stephen Gee"
+description: "The Trusted Setup Ceremony is an opportunity for anyone to contribute to Union, and ensure Union’s ZK-based interoperability is secure and decentralized."
+cover: "/content/assets/31SSuMN8zbDGZopaHIKlAb/Union-Trusted-Setup-Ceremony-Blog-1.png"
+coverAlt: "Announcement graphic for the Union Trusted Setup Ceremony."
+hidden: false
+published: true
+sourceId: "4igxoer5KWZhRvmoIOqswa"
+createdAt: "2024-10-02T14:59:08.942Z"
+updatedAt: "2024-10-10T21:27:18.086Z"
+---
 <p>The next phase of Union’s <a href="https://x.com/union_build/status/1838984647772139678">Roadmap to Mainnet</a> has begun. The Trusted Setup Ceremony is an opportunity for everyone to contribute to Union, and ensure Union’s ZK-based interoperability is secure and decentralized.</p>
 <p><strong>•</strong> Visit <a href="https://ceremony.union.build/">ceremony.union.build</a> to contribute to the ceremony.</p>
 <p>Read on to learn about multi-party computation (MPC), Union’s Trusted Setup Ceremony, and how to contribute.</p>

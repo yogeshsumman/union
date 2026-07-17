@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Partners with Skip Protocol" date: "2024-01-17" author: "Union" description: "Union has found a natural partner in the team behind the #1 developer platform for traditional IBC. This means that Union will be immediately accessible to developers, users, & applications on the 70+ chains Skip API supports." cover: "/content/assets/2PffprEuuoVU8MSqffxs78/Skip-Partner-Blog.png" coverAlt: "Cover image of the Union and Skip Protocol logos, announcing the partnership." hidden: false published: false sourceId: "1ZFtj6J6g0h5ovHAqKKOCP" createdAt: "2024-07-24T03:58:30.133Z" updatedAt: "2025-04-13T17:48:41.715Z"
-
+---
+title: "Union Partners with Skip Protocol"
+date: "2024-01-17"
+author: "Union"
+description: "Union has found a natural partner in the team behind the #1 developer platform for traditional IBC. This means that Union will be immediately accessible to developers, users, & applications on the 70+ chains Skip API supports."
+cover: "/content/assets/2PffprEuuoVU8MSqffxs78/Skip-Partner-Blog.png"
+coverAlt: "Cover image of the Union and Skip Protocol logos, announcing the partnership."
+hidden: false
+published: false
+sourceId: "1ZFtj6J6g0h5ovHAqKKOCP"
+createdAt: "2024-07-24T03:58:30.133Z"
+updatedAt: "2025-04-13T17:48:41.715Z"
+---
 <p>Union has found a natural partner to help onboard developers easily to its novel zk-IBC technology in <a href="https://skip.money/">Skip</a> – the team behind the #1 developer platform for traditional IBC. This means that Union’s zk-IBC will be immediately accessible to developers, users, &amp; applications on the 70+ chains Skip API already supports.</p>
 <h2>Skip API</h2>
 <p>Skip API is the market-leading interoperability infrastructure platform for the interchain. It provides a universal routing solution to help developers transfer &amp; swap tokens throughout Cosmos, Ethereum L2s, and Celestia rollups easily. By partnering with Union, Skip will offer developers on its platform access to Union’s trustless zk-IBC messaging layer.</p>

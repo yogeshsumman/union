@@ -1,7 +1,10 @@
-______________________________________________________________________
-
-## title: "Auro Privacy Policy" sourceId: "4BgHT0VqZ0kPyf4HVQ1Jhw" published: true createdAt: "2025-12-05T23:18:34.861Z" updatedAt: "2025-12-05T23:19:39.810Z"
-
+---
+title: "Auro Privacy Policy"
+sourceId: "4BgHT0VqZ0kPyf4HVQ1Jhw"
+published: true
+createdAt: "2025-12-05T23:18:34.861Z"
+updatedAt: "2025-12-05T23:19:39.810Z"
+---
 <p class="mb-4 text-justify">Last Updated: November 11, 2025</p>
 <p class="mb-4 text-justify">This Privacy Policy describes how Auro (BVI) Limited (“<strong>Auro</strong>,” “<strong>we</strong>,” “<strong>our</strong>,” or “<strong>us</strong>”) may collect, use, and disclose personal information about you. This Privacy Policy applies to information we collect when you interact with our products, services, technology, features, and software (collectively, the “<strong>Services</strong>”) on or through our electronic platforms and applications (the “<strong>Platform</strong>”).</p>
 <p class="mb-4 text-justify">Please read this Privacy Policy carefully so that you understand our policies and practices regarding your information. If you do not agree with our policies and practices, then your choice is not to interact with the Services. By accessing or using the Services you agree to this Privacy Policy. We encourage you to check this Privacy Policy often, so you stay informed about our practices and the choices available to you.</p>

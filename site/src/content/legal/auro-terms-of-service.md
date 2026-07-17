@@ -1,7 +1,10 @@
-______________________________________________________________________
-
-## title: "Auro Terms of Service" sourceId: "3mXKRCugy1uUhBEjLucDWp" published: true createdAt: "2025-12-05T23:15:14.884Z" updatedAt: "2025-12-05T23:18:17.815Z"
-
+---
+title: "Auro Terms of Service"
+sourceId: "3mXKRCugy1uUhBEjLucDWp"
+published: true
+createdAt: "2025-12-05T23:15:14.884Z"
+updatedAt: "2025-12-05T23:18:17.815Z"
+---
 <p class="mb-4 text-justify">Last updated: November 12, 2025</p>
 <p class="mb-4 text-justify">These Terms of Service (these “<strong>Terms</strong>”) constitute a binding legal agreement between you and Auro (BVI) Limited. (“<strong>Auro</strong>,” “<strong>we</strong>,” “<strong>our</strong>,” or “<strong>us</strong>”). These Terms govern your access to and use of our electronic platforms and applications including https://aurobtc.com/ (collectively, the “<strong>Platform</strong>”) and all related products, services, programs, technologies, software, tools, features, and information and data available or communicated via the Platform (collectively, the “<strong>Services</strong>”).</p>
 <p class="mb-4 text-justify">By accessing or using the Services, you agree that you have read, understand, and accept these Terms. If you do not agree to these Terms then you must not use the Services and we do not grant, shall not grant, or be deemed to grant to you, the license to access or use the Services.</p>

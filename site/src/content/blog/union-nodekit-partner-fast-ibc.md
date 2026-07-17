@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union and NodeKit Partner to Build a Fast Lane for IBC" date: "2024-12-12" author: "Stephen Gee" description: "NodeKit’s Javelin superbuilder and Union’s Galois prover combine to speed up cross-chain transactions." cover: "/content/assets/4R55GEACEY9duy8KU1IA6q/Union-X-Nodekit-Blog.png" coverAlt: "Partnership graphic displaying the logos of Union and NodeKit." hidden: false published: true sourceId: "2y5zambtWlTeLVy6zR8xKX" createdAt: "2024-12-12T01:01:06.769Z" updatedAt: "2025-01-13T22:50:21.826Z"
-
+---
+title: "Union and NodeKit Partner to Build a Fast Lane for IBC"
+date: "2024-12-12"
+author: "Stephen Gee"
+description: "NodeKit’s Javelin superbuilder and Union’s Galois prover combine to speed up cross-chain transactions."
+cover: "/content/assets/4R55GEACEY9duy8KU1IA6q/Union-X-Nodekit-Blog.png"
+coverAlt: "Partnership graphic displaying the logos of Union and NodeKit."
+hidden: false
+published: true
+sourceId: "2y5zambtWlTeLVy6zR8xKX"
+createdAt: "2024-12-12T01:01:06.769Z"
+updatedAt: "2025-01-13T22:50:21.826Z"
+---
 <p>Union is partnering with <a href="https://www.nodekit.xyz/">NodeKit</a> to build a fast lane for zkIBC. By combining NodeKit’s Javelin superbuilder with Union’s Galois prover, users will be able to transact across Union-connected chains in a single block, unlocking speed for performance upgrades without sacrificing the security of consensus verification.</p>
 <p>This integration will further Union and NodeKit’s commitment to a composable and modular ecosystem, where interacting across multiple chains feels like transacting on a single chain. The integration is planned for Q2 2025, after the launch of Union’s mainnet.</p>
 <h2>Faster Proving for Rapid Atomic Transactions</h2>

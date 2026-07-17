@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Live as Launch Interop Provider for Babylon Genesis Network" date: "2025-04-09" author: "Emir Beriker" description: "Union will launch a limited mainnet in support of the Babylon Genesis chain, Bitcoin Secured Networks like Corn and BOB, and Bitcoin LSTs such as uniBTC." cover: "/content/assets/2zrg8KV8XuZ3NnBBWK7L6Z/BABYDROP-HEADER-v3.png" coverAlt: "Union x Babylon graphic that says Launch Day Interop Provider" hidden: false published: true sourceId: "1GlJsnu9RqmeK29LBnnh5l" createdAt: "2025-04-04T19:03:34.339Z" updatedAt: "2025-04-30T15:30:57.557Z"
-
+---
+title: "Union Live as Launch Interop Provider for Babylon Genesis Network"
+date: "2025-04-09"
+author: "Emir Beriker"
+description: "Union will launch a limited mainnet in support of the Babylon Genesis chain, Bitcoin Secured Networks like Corn and BOB, and Bitcoin LSTs such as uniBTC."
+cover: "/content/assets/2zrg8KV8XuZ3NnBBWK7L6Z/BABYDROP-HEADER-v3.png"
+coverAlt: "Union x Babylon graphic that says Launch Day Interop Provider"
+hidden: false
+published: true
+sourceId: "1GlJsnu9RqmeK29LBnnh5l"
+createdAt: "2025-04-04T19:03:34.339Z"
+updatedAt: "2025-04-30T15:30:57.557Z"
+---
 <p>Friday, <strong>April 11th 2025</strong>, Union will launch a limited mainnet in support of the Babylon Genesis chain, Bitcoin Secured Networks, and Bitcoin LSTs. As a key interop provider for the Babylon Bitcoin staking protocol, Union will enable message passing and asset transfers in and out of Babylon Genesis network.</p>
 <p>Bitcoin is the gold standard, with its dominance continuing to rise. At Union, we see Bitcoin as the way to <strong>free the world from the shackles of economic oppression</strong>. This vision is why Union is becoming a launch interop provider for the Babylon protocol, and supporting the broader Bitcoin ecosystem as it continues to evolve.<br><br><strong>Union will serve as a pivotal point at the Babylon Genesis network launch:</strong></p>
 <img src="/content/assets/64uxrZNB0V1kXTDJ1pQdA5/UNION-TO-BABYLON.png" alt="A graph of how Bitcoin LSTs travel from Ethereum to Babylon through Union, and how assets can travel from Babylon to Bitcoin Secured Networks (BSNs) like Corn and BOB via Union.">

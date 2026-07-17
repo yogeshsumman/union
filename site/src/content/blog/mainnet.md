@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Mainnet is Live" date: "2025-09-04" author: "Stephen Gee" description: "Union's public mainnet is officially live. The era of trustless, scalable, zk-based interop has begun." cover: "/content/assets/71FnHUJilV8lo8ZFk2JtXW/UNION-MAINNET.png" coverAlt: "Union Mainnet graphic, with words and stickers such as zkgm, 0\_\_\_\_0, ba5ed, Certified Goblin Mode, and blockchain of blockchains." hidden: false published: true sourceId: "6UJAt0wHeDB9tsgMsoOshL" createdAt: "2025-09-03T08:26:54.372Z" updatedAt: "2025-09-04T09:23:44.041Z"
-
+---
+title: "Union Mainnet is Live"
+date: "2025-09-04"
+author: "Stephen Gee"
+description: "Union's public mainnet is officially live. The era of trustless, scalable, zk-based interop has begun."
+cover: "/content/assets/71FnHUJilV8lo8ZFk2JtXW/UNION-MAINNET.png"
+coverAlt: "Union Mainnet graphic, with words and stickers such as zkgm, 0____0, ba5ed, Certified Goblin Mode, and blockchain of blockchains."
+hidden: false
+published: true
+sourceId: "6UJAt0wHeDB9tsgMsoOshL"
+createdAt: "2025-09-03T08:26:54.372Z"
+updatedAt: "2025-09-04T09:23:44.041Z"
+---
 <p>Union's public mainnet is officially live. The initial set of mainnet validators are producing blocks on union-1, and U is now claimable as part of the U Drop for community contributors. The era of trustless, scalable, zk-based interop has begun.</p>
 <p>This launch is the culmination of three years of work by the Union core team, core contributors, and everybody involved in Union. Thanks are owed to all the support from strategic investors, key partners, and the vibrant Union community. None of this happens without all of you.</p>
 <p>Mainnet paves the way for the addition of more chains, more applications, and the onboarding of many more users to the Union network. Over $145M of value in BTC LSTs, BABY, and other assets has already been securely transferred across Union routes during the alpha mainnet, and that only scratches the surface of what the Union network is capable of. The future is inevitably multichain, and Union will connect that future in a unified crosschain ecosystem.</p>

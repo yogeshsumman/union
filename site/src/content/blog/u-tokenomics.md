@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Introducing U: Union Token Utility and Tokenomics" date: "2025-08-21" author: "Union Foundation" description: "Union Foundation introduces U, the token of the Union network. Learn about the utility and tokenomics powering the Union network." cover: "/content/assets/3BsDUMYVFDTDWGfuBikkcS/TOKENOMICS-BLOG2.png" coverAlt: "U token utility and tokenomics announcement graphic by the Union Foundation, with the U displayed as a collection of other token logos." hidden: false published: true sourceId: "6xJc92OFqGhXrVbly5uBjP" createdAt: "2025-08-20T02:46:08.219Z" updatedAt: "2025-09-24T21:07:09.076Z"
-
+---
+title: "Introducing U: Union Token Utility and Tokenomics"
+date: "2025-08-21"
+author: "Union Foundation"
+description: "Union Foundation introduces U, the token of the Union network. Learn about the utility and tokenomics powering the Union network."
+cover: "/content/assets/3BsDUMYVFDTDWGfuBikkcS/TOKENOMICS-BLOG2.png"
+coverAlt: "U token utility and tokenomics announcement graphic by the Union Foundation, with the U displayed as a collection of other token logos."
+hidden: false
+published: true
+sourceId: "6xJc92OFqGhXrVbly5uBjP"
+createdAt: "2025-08-20T02:46:08.219Z"
+updatedAt: "2025-09-24T21:07:09.076Z"
+---
 <p>The Union Foundation is officially announcing the Union token. U is the native token of the Union network, and serves three main purposes: gas token in the Union Dynamic Fee Market, network security via Proof of Stake, and governance via Crosschain Governance.</p>
 <p>U is <a href="https://union.build/blog/union-token-specification-erc20">ERC20 compatible</a> and available on Ethereum. It has a Genesis Supply of 10,000,000,000, and an initial circulating supply of 1,919,050,000. Its smallest denom is au.</p>
 <p>Below is a breakdown of U utility and tokenomics. Full details can be found on the <a href="http://docs.union.build/u">Union docs</a>.</p>

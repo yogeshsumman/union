@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Adds Trustless, Hyper-efficient Interoperability to BNB Chain" date: "2025-09-08" author: "Stephen Gee" description: "Asset transfers and message passing for BNB Chain are now enabled on the Union network, providing fast and secure crosschain communication for BNB Chain apps and users" cover: "/content/assets/47N9LME2jGsz2OJvWnkDKE/Union-x-BNB2.png" coverAlt: "Union x BNB2" hidden: true published: true sourceId: "4wEAweq25NB6LI1oCoB3mf" createdAt: "2025-09-08T09:19:04.682Z" updatedAt: "2025-09-09T14:45:01.227Z"
-
+---
+title: "Union Adds Trustless, Hyper-efficient Interoperability to BNB Chain"
+date: "2025-09-08"
+author: "Stephen Gee"
+description: "Asset transfers and message passing for BNB Chain are now enabled on the Union network, providing fast and secure crosschain communication for BNB Chain apps and users"
+cover: "/content/assets/47N9LME2jGsz2OJvWnkDKE/Union-x-BNB2.png"
+coverAlt: "Union x BNB2"
+hidden: true
+published: true
+sourceId: "4wEAweq25NB6LI1oCoB3mf"
+createdAt: "2025-09-08T09:19:04.682Z"
+updatedAt: "2025-09-09T14:45:01.227Z"
+---
 <p><a href="https://www.bnbchain.org/">BNB Chain</a> is officially part of the Union network. Asset transfers and message passing for BNB Chain are now enabled on the Union network, providing fast and secure crosschain communication for BNB Chain apps and users.<br><br>This integration establishes the first trustless zk connection to BNB Chain. By leveraging zero-knowledge cryptography, Union has implemented full consensus verification for maximum security, while remaining gas efficient for crosschain messages and asset transfers.</p>
 <p>With connections to Ethereum and the Babylon BTCfi ecosystem already live, and <a href="https://union.build/roadmap">more to come</a>, this integration unlocks greater access to the BNB ecosystem for users and liquidity.</p>
 <h2>Custom BNB Chain Interoperability</h2>

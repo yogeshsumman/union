@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Introducing Auro BTC: the Union Network’s Native Bitcoin LST" date: "2025-07-15" author: "Emir Beriker" description: "The new product will leverage Union's ZK-secured, trust-minimized interoperability to make the Union Bitcoin LST instantly available across ecosystems." cover: "/content/assets/4X8mT5bQokC1aec9ABuym0/LST-ANNOUCNEMENT.png" coverAlt: "Graphic with a Union logo overlaid on top of a Bitcoin logo, with "Auro BTC" on either side. At the top it says "Bitcoin LST." At the bottom it says "Crosschain compatible, sustainable yield." A waterfall is in the background." hidden: false published: true sourceId: "2rHGiI7TO3P5hj3MIO7C3i" createdAt: "2025-07-14T22:08:16.713Z" updatedAt: "2025-07-17T03:03:47.435Z"
-
+---
+title: "Introducing Auro BTC: the Union Network’s Native Bitcoin LST"
+date: "2025-07-15"
+author: "Emir Beriker"
+description: "The new product will leverage Union's ZK-secured, trust-minimized interoperability to make the Union Bitcoin LST instantly available across ecosystems."
+cover: "/content/assets/4X8mT5bQokC1aec9ABuym0/LST-ANNOUCNEMENT.png"
+coverAlt: "Graphic with a Union logo overlaid on top of a Bitcoin logo, with \"Auro BTC\" on either side. At the top it says \"Bitcoin LST.\" At the bottom it says \"Crosschain compatible, sustainable yield.\" A waterfall is in the background."
+hidden: false
+published: true
+sourceId: "2rHGiI7TO3P5hj3MIO7C3i"
+createdAt: "2025-07-14T22:08:16.713Z"
+updatedAt: "2025-07-17T03:03:47.435Z"
+---
 <p>Bitcoin LST/LRTs are rapidly emerging as one of the fastest-growing categories in DeFi, with combined TVL approaching $10+ billion as of date. By transforming idle Bitcoin into yield-generating assets, Bitcoin LSTs have unlocked new utility for the world’s most valuable digital asset, enabling it to participate in staking, lending, and liquidity provisioning across chains.</p>
 <p>Existing Bitcoin LST products have unlocked some utility for idle BTC, but their isolated smart contract design limits native cross-chain scaling, secure custody coordination, and seamless DeFi composability. This means:</p>
 <ul><li><p><strong>Custodial Risk: </strong>Many rely on centralized or semi-centralized custody setups, introducing single points of failure.</p></li><li><p><strong>Poor Crosschain Strategy: </strong>Many are locked to a single chain or use insecure/misaligned bridging solutions, hampering interoperability.</p></li><li><p><strong>Lack of Sustainable Yield: </strong>Most LSTs offer synthetic or rebased yield, not sourced from native Bitcoin staking or protocol revenue. Most rely on new chain tokens and airdrop farming.</p></li><li><p><strong>Low Adoption and TVL: </strong>Despite potential, user adoption remains limited due to low utility, unclear incentives, or integration barriers.</p></li><li><p><strong>Limited Utility in DeFi: </strong>Few LSTs have meaningful integrations in lending, yield, or collateral markets—restricting composability.</p></li></ul>

@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union, the Cross-chain Settlement Layer 1,  Adds Babylonchain to its Network" date: "2025-01-29" author: "Emir Beriker" description: "Union will seamlessly transfer all Babylon assets and LSTs to every chain Union is connected to." cover: "/content/assets/2MPUrTmMkyikA1fNILEQlf/Union-X-Babylon-Blog.png" coverAlt: "Logos for Union and Babylon." hidden: false published: true sourceId: "1cegVrNJYts3ogkUqh2fpk" createdAt: "2025-01-24T18:59:54.719Z" updatedAt: "2025-02-05T15:00:23.477Z"
-
+---
+title: "Union, the Cross-chain Settlement Layer 1,  Adds Babylonchain to its Network"
+date: "2025-01-29"
+author: "Emir Beriker"
+description: "Union will seamlessly transfer all Babylon assets and LSTs to every chain Union is connected to."
+cover: "/content/assets/2MPUrTmMkyikA1fNILEQlf/Union-X-Babylon-Blog.png"
+coverAlt: "Logos for Union and Babylon."
+hidden: false
+published: true
+sourceId: "1cegVrNJYts3ogkUqh2fpk"
+createdAt: "2025-01-24T18:59:54.719Z"
+updatedAt: "2025-02-05T15:00:23.477Z"
+---
 <p>Today we are excited to announce that Union will become interoperable with <strong>Babylonchain</strong>, the project that brings Bitcoin’s security and timestamping capabilities to PoS chains. This means that Union will be the transporter of all assets and LSTs in and out of Babylonchain through its hyper-efficient interoperability layer secured by ZK proofs.</p>
 <h2><strong>Introducing Union</strong></h2>
 <p>Union is a hyper-efficient zero-knowledge infrastructure layer that provides:</p>

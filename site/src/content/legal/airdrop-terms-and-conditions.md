@@ -1,7 +1,10 @@
-______________________________________________________________________
-
-## title: "Union Airdrop Program Terms & Conditions" sourceId: "43sR1iKG6dHDFNXrVlKIF3" published: true createdAt: "2025-08-29T03:55:06.480Z" updatedAt: "2025-08-29T04:12:18.469Z"
-
+---
+title: "Union Airdrop Program Terms & Conditions"
+sourceId: "43sR1iKG6dHDFNXrVlKIF3"
+published: true
+createdAt: "2025-08-29T03:55:06.480Z"
+updatedAt: "2025-08-29T04:12:18.469Z"
+---
 <p class="mb-4 text-justify"><strong>Last updated: August 28, 2025</strong></p>
 <p class="mb-4 text-justify"><strong>Please read these Airdrop Program Terms carefully. They constitute a legal agreement between you and Union and govern your participation in certain activities (the “Union Airdrop Program”), including with respect to your receipt of any digital assets associated with the Union Protocol (as defined below) having a symbol ‘U’ (“Union Tokens”) distributed in connection with the Union Airdrop Program (an “Airdrop”). By accessing, using, or otherwise participating in the Union Airdrop Program, you confirm your agreement to accept and be bound by these Airdrop Program Terms, as amended from time to time. You acknowledge and agree that you have read, understood, and agree to be bound by these Airdrop Program Terms in its entirety. Your participation in an Airdrop and the Union Airdrop Program is solely at your own risk and it is your sole responsibility to seek appropriate professional, legal, tax, and other advice in respect of your participation in an Airdrop and the Union Airdrop Program, including with respect to (i) your claiming or receipt of or failure to claim or receive Union Tokens; and (ii) your decision to hold, transact with, stake, or sell any Union Tokens. You further agree that you have read and understood the various requirements, acknowledgments, legal limitations, and risk factors set out in these Airdrop Program Terms. Union has not and does not provide any legal, tax, or other advice or recommendation with respect to any Airdrop or the Union Airdrop Program.</strong></p>
 <p class="mb-4 text-justify"><strong>THESE TERMS REQUIRE THE USE OF ARBITRATION ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES, RATHER THAN JURY TRIALS OR CLASS ACTIONS.</strong></p>

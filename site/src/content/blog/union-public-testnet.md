@@ -1,7 +1,16 @@
-______________________________________________________________________
-
-## title: "Union Public Testnet is Live" date: "2024-06-26" author: "union_build" description: "Today, Union’s public testnet goes live. Go to app.union.build, connect your wallet, and start transferring assets." cover: "/content/assets/2Cuwyi8CNJpNfIec3Rwimv/Testnet-Graphic-Adjustment.png" coverAlt: "union-public-testnet-cover" hidden: false published: true sourceId: "4rA2j7I3O9zihbF3c4UMLR" createdAt: "2024-07-18T16:57:49.818Z" updatedAt: "2024-11-08T15:43:11.181Z"
-
+---
+title: "Union Public Testnet is Live"
+date: "2024-06-26"
+author: "union_build"
+description: "Today, Union’s public testnet goes live. Go to app.union.build, connect your wallet, and start transferring assets."
+cover: "/content/assets/2Cuwyi8CNJpNfIec3Rwimv/Testnet-Graphic-Adjustment.png"
+coverAlt: "union-public-testnet-cover"
+hidden: false
+published: true
+sourceId: "4rA2j7I3O9zihbF3c4UMLR"
+createdAt: "2024-07-18T16:57:49.818Z"
+updatedAt: "2024-11-08T15:43:11.181Z"
+---
 <p>Today, Union's public testnet goes live, marking a significant milestone in modular interoperability. The modular stack is getting unified, and now you can be part of it. To access the testnet, go to <a href="https://app.union.build">app.union.build</a>, connect your wallet (<a href="https://metamask.io">MetaMask</a>, <a href="https://rabby.io/">Rabby</a>, <a href="https://www.keplr.app">Keplr</a>, and <a href="https://www.leapwallet.io">Leap</a>), and start transferring assets. The Union public testnet is a first step in the tiered rollout of Union’s Testnet. Expect many partners and chains to be onboarded in the next few weeks. <a href="https://app.union.build">Try it now</a>.</p>
 <h2>What this Means</h2>
 <p>With the Union testnet live, users have the opportunity to be at the forefront of modular interoperability, and test the Union network ahead of its mainnet launch. The testnet features an integrated faucet, making it easy for users to obtain testnet tokens and engage with the platform. Transferring assets will be available between the Union testnet and the Ethereum Sepolia testnet to start, with more testnet chains added soon.</p>
